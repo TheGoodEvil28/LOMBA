@@ -50,10 +50,18 @@ body {
 
 .hero-section {
     position: relative;
-    background: linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #0b244252 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #0b4d9e9c 100%);
     background-size: 200% 200%;
     animation: gradientShift 10s infinite alternate ease-in-out;
     overflow: hidden;
+}
+.hero-section::before, .hero-section::after {
+    pointer-events: none;
+}
+.sell-btn, .shop-btn {
+    position: relative;
+    z-index: 20;
+    pointer-events: auto;
 }
 
 /* Soft accent glow */
@@ -528,7 +536,7 @@ body {
     display: block;
     width: 60px; /* Strip width */
     height: 4px; /* Strip height */
-    background-color: #28a745; /* Elegant green (change if needed) */
+    background-color: #0B2442; /* Elegant green (change if needed) */
     margin: 8px auto 0;
     border-radius: 2px;
     transition: width 0.3s ease-in-out;
