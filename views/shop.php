@@ -95,7 +95,9 @@
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="185000">
             <div class="card">
                 <a href="shop2.php">
-                    <img src="../resource/images\Barang_Branded\Female\Top_s\Zara Floral Cotton Blouse.jpg" class="card-img-top" alt="Product Image">
+                    <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain wo girl.avif" 
+                    data-hover-src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain.avif"
+                    class="card-img-top hover-image" alt="Product Image">
                 </a>
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -103,7 +105,7 @@
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
                     <a href="shop2.php" class="product-link">
-                        <h5 class="product-name">Zara Floral Cotton Blouse</h5>
+                        <h5 class="product-name">Prada Marocain top</h5>
                     </a>
                     <p class="product-price">Rp 185.000</p>
                 </div>
@@ -111,7 +113,9 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="185000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Top_s\H&M Fitted Blazer Jacket.jpg" class="card-img-top" alt="Product Image">
+            <img src="../resource/images\Barang_Branded\Female\Top_s\blue shirt prada.avif" 
+                    data-hover-src="../resource/images\Barang_Branded\Female\Top_s\blue shirt prada woman.avif"
+                    class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size L</p>
@@ -124,7 +128,9 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="s" data-price="175000">
             <div class="card">
-                <img src="../resource/images\Barang_Non_Branded\Female\Top_s\Buttoned Crew Neck Jacket.jpg" class="card-img-top" alt="Product Image">
+                <img src="../resource/images/Barang_Branded/Female/Top_s/oversized cotton shirt.avif"
+                 data-hover-src="../resource/images/Barang_Branded/Female/Top_s/oversized cotton shirt girl.avif"
+                class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size S</p>
@@ -137,7 +143,9 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="s" data-price="85000">
             <div class="card">
-                <img src="../resource/images\Barang_Non_Branded\Female\Top_s\Cardigan Kimono.jpg" class="card-img-top" alt="Product Image">
+                <img src="../resource/images\Barang_Branded\Female\Top_s\dark brown knitwear.avif" 
+                data-hover-src="../resource/images/Barang_Branded/Female/Top_s/dark brown knitwear woman.avif"
+                class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size S</p>
@@ -150,7 +158,9 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="xl" data-price="185000">
             <div class="card">
-                <img src="../resource/images\Barang_Non_Branded\Female\Bottom_s\Pleated High Waisted  Pants.jpg" class="card-img-top" alt="Product Image">
+                <img src="../resource/images\Barang_Branded\Female\Bottom_s\technical grey pants.avif"
+                data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\technical grey pants woman.avif"
+                class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size XL</p>
@@ -161,10 +171,12 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="305000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="onesize" data-price="305000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\New Balance Women_s Shoes.jpg" class="card-img-top" alt="Product Image">
-                <div class="card-body">
+            <img src="../resource/images\Barang_Branded\Female\Bottom_s\sable trousers.avif"
+            data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\sable trousers woman.avif"
+            class="card-body hover-image">
+                <div class="card-body hover-image">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size 40</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
@@ -174,9 +186,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="285000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="onesize" data-price="285000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\Converse Chuck Taylor All Star.jpg" class="card-img-top" alt="Product Image">
+            <img src="../resource/images\Barang_Branded\Female\Bottom_s\rush stitch skirt with leather fringe.avif"
+            data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\rush stitch skirt with leather fringe woman.avif"
+            class="card-img-top hover-image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size 39</p>
@@ -187,9 +201,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="xl" data-price="185000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="xl" data-price="185000">
             <div class="card">
-                <img src="../resource/images\Barang_Non_Branded\Female\Top_s\Cotton Flutter.jpg" class="card-img-top" alt="Product Image">
+                <img src="../resource/images\Barang_Branded\Female\Bottom_s\emboridered silk and wool skirt.avif"
+                data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\emboridered silk and wool skirt woman.avif"
+                class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size XL</p>
@@ -202,7 +218,9 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="185000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\Converse Chuck Taylor All Star.jpg" class="card-img-top" alt="Product Image">
+                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck 70 lunar new year.png" 
+                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck 70 lunar new year two.png"
+                class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size 38</p>
@@ -215,7 +233,9 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="305000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\New Balance Women_s Shoes.jpg" class="card-img-top" alt="Product Image">
+                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck taylor all star move petals and pearls high top.png" 
+                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck taylor all star move petals and pearls high top two.png" 
+                class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size 36</p>
@@ -228,13 +248,30 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="285000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\Converse Chuck Taylor All Star.jpg" class="card-img-top" alt="Product Image">
+                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck 8- de luxe heel sandal.png" 
+                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck 8- de luxe heel sandal two.png"
+                class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size 41</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
                     <h5 class="product-name">Converse Chuck Taylor All Stars</h5>
+                    <p class="product-price">Rp 285.000</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="185000">
+            <div class="card">
+                <img src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane.png" 
+                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane two.png" 
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size 38</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
+                    </div>
+                    <h5 class="product-name">Converse Chuck Taylor All Star</h5>
                     <p class="product-price">Rp 285.000</p>
                 </div>
             </div>
@@ -314,6 +351,31 @@ document.getElementById('resetPriceBtn').addEventListener('click', function () {
     minPriceInput.value = '';
     maxPriceInput.value = '';
     filterProducts();
+});
+document.querySelectorAll('.hover-image').forEach(img => {
+  const originalSrc = img.src;
+  const hoverSrc = img.dataset.hoverSrc;
+
+  img.addEventListener('mouseenter', () => {
+    // Set timeout for 1 second (1000ms)
+    hoverTimeout = setTimeout(() => {
+      img.style.opacity = '0';
+      setTimeout(() => {
+        img.src = hoverSrc;
+        img.style.opacity = '1';
+      }, 150); // This 150ms is for the fade effect
+    }, 350);
+  });
+
+  img.addEventListener('mouseleave', () => {
+    // Clear the timeout if mouse leaves before 1 second
+    clearTimeout(hoverTimeout);
+    img.style.opacity = '0';
+    setTimeout(() => {
+      img.src = originalSrc;
+      img.style.opacity = '1';
+    }, 150);
+  });
 });
 </script>
 <?php include "../layouts/footer.html"; ?>
