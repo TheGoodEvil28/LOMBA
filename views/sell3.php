@@ -17,7 +17,7 @@
     <h1>Thank You</h1>
     <p>Your request will be processed immediately<span class="loading-dots"></span></p>
     <img src="../resource/images/Icon_Gambar/Order_Sell/sell_success.png" alt="Thank You Image">
-    <a href="../views/index.php" class="btn">Return to Home Page</a>
+    <a href="../views/index.php" class="btn"><b>Return to Home Page</b></a>
     </section>
 
     <?php include "../layouts/footer.html"; ?>
