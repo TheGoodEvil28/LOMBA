@@ -21,7 +21,7 @@
                     <!-- Photo Items -->
                     <div class="photo-item">
                         <label for="add-photo">
-                            <img src="{{ asset('images/Icon_Gambar/Semua_Icon/camera.png') }}" alt="Add Photo">
+                            <img src="../resource/images/plus.jpg" alt="Add Photo">
                         </label>
                         <span>Add Photo</span> <!-- Text moved below the image -->
                         <input type="file" id="add-photo" name="photo" style="display:none;">

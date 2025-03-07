@@ -19,11 +19,11 @@
     <div class="product-details">
         <h3>Product Details</h3>
         <div class="product-photo-grid">
-            <img src="{{ asset('images\Barang_Non_Branded\Female\Top_s\Striped Sweater.jpg') }}" alt="Product Photo">
-            <div class="photo-item"><img src="{{ asset('images\Barang_Non_Branded\Kids\Top_s\Long-Sleeved Shirt.jpg') }}" alt="Product Photo"></div>
-            <div class="photo-item"><img src="{{ asset('images\Barang_Non_Branded\Male\Bottom_s\Casual Short.jpg') }}"  alt="Product Photo"></div>
-            
+            <img src="../resource/images/Barang_Non_Branded/Female/Top_s/Striped Sweater.jpg" alt="Product Photo">
+            <div class="photo-item"><img src="../resource/images/Barang_Non_Branded/Kids/Top_s/Long-Sleeved Shirt.jpg" alt="Product Photo"></div>
+            <div class="photo-item"><img src="../resource/images/Barang_Non_Branded/Male/Bottom_s/Casual Short.jpg" alt="Product Photo"></div>
         </div>
+
         <div class="item-details">
             <table>
                 <tr>
@@ -60,8 +60,7 @@
         <p class="price-info">Based on the price research, the estimated price for the product you sent is <strong>Rp 60,000</strong></p>
         
         <form action="../views/sell3.php" method="POST" enctype="multipart/form-data">
-       
-            @csrf
+
             <label for="input-price">Enter the price you want</label>
             <input type="text" id="input-price" name="price" placeholder="Input Price">
 

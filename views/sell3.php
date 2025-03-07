@@ -16,7 +16,7 @@
     <section class="thank-you-section">
     <h1>Thank You</h1>
     <p>Your request will be processed immediately<span class="loading-dots"></span></p>
-    <img src="{{ asset('images\Icon_Gambar\Order_Sell\sell_success.png') }}" alt="Thank You Image">
+    <img src="../resource/images/Icon_Gambar/Order_Sell/sell_success.png" alt="Thank You Image">
     <a href="../views/index.php" class="btn">Return to Home Page</a>
     </section>
 

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -262,41 +261,6 @@
 <div class="more-link mt-3">
     <a href="shop.php">More <img src="../resource/images/Icon_Gambar/Semua_Icon/right_arrow.png" alt="Right Arrow" style="width: 16px; height: 16px;"></a>
 </div>
-
-<!-- Donate Section -->
-<section class="donate-section">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <!-- Left Section with 4 images -->
-            <div class="col-md-6 p-0">
-                <div class="donate-images-grid">
-                    <div class="donate-image">
-                        <img src="../resource/images/Icon_Gambar/Landing_Page/gambar3a.png" alt="Image 1" class="img-fluid">
-                    </div>
-                    <div class="donate-image">
-                        <img src="../resource/images/Icon_Gambar/Landing_Page/gambar3b.png" alt="Image 2" class="img-fluid">
-                    </div>
-                    <div class="donate-image">
-                        <img src="../resource/images/Icon_Gambar/Landing_Page/gambar3c.png" alt="Image 3" class="img-fluid">
-                    </div>
-                    <div class="donate-image">
-                        <img src="../resource/images/Icon_Gambar/Landing_Page/gambar3d.png" alt="Image 4" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-            <!-- Right Section with Text -->
-            <div class="col-md-6 d-flex align-items-center p-5">
-                <div>
-                    <h2 class="donate-title">DONATE</h2>
-                    <p class="donate-description">
-                        We are the preloved fashion company in Indonesia and we offer A/B Grade second-hand clothes,
-                        shoes, bags, and other used textile products. <strong><a href="/donate" class="donate-link">Donate now!</a></strong>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Thriftin Section -->
 <section class="about-reward-section container my-5">
