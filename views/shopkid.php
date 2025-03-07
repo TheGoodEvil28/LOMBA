@@ -91,35 +91,35 @@
 
     <!-- Product Grid -->
     <div class="row g-4" id="product-grid">
-    <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="185000">
+    <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="m" data-price="120000">
             <div class="card">
                     <img src="../resource/images/Barang_Branded/Kids/top_s/oversized printed sweatshirt hotwheels.avif" 
                     data-hover-src="../resource/images/Barang_Branded/Kids/top_s/oversized printed sweatshirt hotwheels closeup.avif"
                     class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size L</p>
+                        <p class="product-size">Size M</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
                     <a href="shop2.php" class="product-link">
-                        <h5 class="product-name">Prada Marocain top</h5>
+                        <h5 class="product-name">Oversized Printed Sweatshirt Hotwheels</h5>
                     </a>
-                    <p class="product-price">Rp 185.000</p>
+                    <p class="product-price">Rp 120.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="185000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="s" data-price="120000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/top_s/oversized printed sweatshirt minecraft.avif" 
                     data-hover-src="../resource/images/Barang_Branded/Kids/top_s/oversized printed sweatshirt minecraft closeup.avif"
                     class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size L</p>
+                        <p class="product-size">Size S</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">H&M Fitted Blazer Jacket</h5>
-                    <p class="product-price">Rp 185.000</p>
+                    <h5 class="product-name">Oversized Printed Sweatshirt Minecraft</h5>
+                    <p class="product-price">Rp 120.000</p>
                 </div>
             </div>
         </div>
@@ -133,12 +133,12 @@
                         <p class="product-size">Size S</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Buttoned Crew Neck Jacket</h5>
+                    <h5 class="product-name">Oversized Printed Sweatshirt Tom and Jerry</h5>
                     <p class="product-price">Rp 175.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="s" data-price="125000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/top_s/oversized printed sweatshirt tomnJerry.avif" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/top_s/oversized printed sweatshirt tomnJerry closeup.avif"
@@ -148,12 +148,12 @@
                         <p class="product-size">Size S</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">Oversized Printed Sweatshirt Tom & Jerry</h5>
+                    <p class="product-price">Rp 125.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="m" data-price="85000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/bottom_s/baggy fit bootcut.avif" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/bottom_s/baggy fit bootcut girl.avif"
@@ -163,27 +163,27 @@
                         <p class="product-size">Size S</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
+                    <h5 class="product-name">Baggy Fit Bootcut</h5>
                     <p class="product-price">Rp 85.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="m" data-price="110000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/bottom_s/light denim blue.avif" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/bottom_s/light denim blue boy.avif"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size S</p>
+                        <p class="product-size">Size M</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">Light Denim Blue</h5>
+                    <p class="product-price">Rp 110.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="s" data-price="115000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/bottom_s/loose fit jeans.avif" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/bottom_s/loose fit jeans boy.avif"
@@ -193,12 +193,12 @@
                         <p class="product-size">Size S</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">Loose Fit Jeans</h5>
+                    <p class="product-price">Rp 115.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="s" data-price="130000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/bottom_s/pique shorts.avif" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/bottom_s/pique shorts closeup.avif"
@@ -208,68 +208,68 @@
                         <p class="product-size">Size S</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">Pique Shorts</h5>
+                    <p class="product-price">Rp 130.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="145000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/shoes/white sneakers.avif" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/shoes/white sneakers top.avif"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size S</p>
+                        <p class="product-size">Size 36</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">White Sneakers</h5>
+                    <p class="product-price">Rp 145.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="80000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/shoes/Nike flex runner 3.png" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/shoes/Nike flex runner 3top.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size S</p>
+                        <p class="product-size">Size 32</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">Nike flex runner 3</h5>
+                    <p class="product-price">Rp 80.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="100000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/shoes/Jordan 1 Retro Low 'LNY'.png" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/shoes/Jordan 1 Retro Low 'LNY' top.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size S</p>
+                        <p class="product-size">Size 36</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">Jordan 1 Retro Low 'LNY'</h5>
+                    <p class="product-price">Rp 100.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="110000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Kids/shoes/Ar jordan 4 retro white thunder.png" 
                 data-hover-src="../resource/images/Barang_Branded/Kids/shoes/Ar jordan 4 retro white thunder top.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size S</p>
+                        <p class="product-size">Size 37</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">Air Jordan 4 Retro White Thunder</h5>
+                    <p class="product-price">Rp 110.000</p>
                 </div>
             </div>
         </div>

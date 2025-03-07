@@ -48,23 +48,31 @@
     <!-- Product Details Section -->
 <div class="row">
     <div class="col-lg-6">
-        <div id="product-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="product-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1300">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../resource/images/Barang_Branded/Female/Top_s/Zara Floral Cotton Blouse.jpg" class="d-block w-100" alt="Product Image">
+                    <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain wo girl.avif" class="d-block w-100" alt="Product Image">
                 </div>
                 <div class="carousel-item">
-                    <img src="../resource/images/Barang_Branded/Female/Top_s/Zara Floral Cotton Blouse.jpg" class="d-block w-100" alt="Product Image">
+                    <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain.avif" class="d-block w-100" alt="Product Image">
                 </div>
-                <!-- Add more images as needed -->
+                <div class="carousel-item">
+                    <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain Full.avif" class="d-block w-100" alt="Product Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain CLose.avif" class="d-block w-100" alt="Product Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain Back.avif" class="d-block w-100" alt="Product Image">
+                </div>
             </div>
         </div>
     </div>
 
     <div class="col-lg-6">
-        <h3 class="product-name">Cardigan Souffle Uniqlo</h3>
+        <h3 class="product-name">Prada Morocain</h3>
         <p>Size L - Kondisi sangat baik</p>
-        <p class="product-price">Rp 155.000</p>
+        <p class="product-price">Rp 240.000</p>
         <p>Color: Blue <span class="circle-color" style="background-color: #587098; width: 15px; height: 15px; display: inline-block; border-radius:50px;"></span></p>
 
         <!-- Liked by Section -->
@@ -89,11 +97,11 @@
         <!-- Product Description -->
         <div class="product-description mt-4">
             <h5>Description</h5>
-            <p>Cardigan Hitam Rajut</p>
-            <p>Brand Uniqlo</p>
+            <p>Prada Morocain</p>
+            <p>Brand Prada</p>
             <p>LD 95 - 100</p>
             <p>P 60</p>
-            <p>No Minus, Kancing Aman</p>
+            <p>No Minus, Jahitan Aman</p>
             <p>Size Tag L</p>
             <!-- Time since product was uploaded -->
             <small class="text-muted">1 hari yang lalu</small>

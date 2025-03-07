@@ -20,17 +20,17 @@
     <h4 class="mb-4">Order</h4>
     <div class="card p-3 shadow-sm">
         <div class="d-flex">
-            <img src="../resource/images\Barang_Branded\Female\Top_s\Zara Floral Cotton Blouse.jpg" alt="Product Image" class="img-fluid" style="width: 100px; height: auto; margin-right: 20px;">
+            <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain wo girl.avif" alt="Product Image" class="img-fluid" style="width: 100px; height: auto; margin-right: 20px;">
             <div>
-                <h5>Cardigan Souffle Uniqlo</h5>
+                <h5>Prada Morocain</h5>
                 <p>Size L - Kondisi sangat baik</p>
-                <p>Color: Blue <span class="circle-color" style="background-color: #587098; width: 15px; height: 15px; display: inline-block; border-radius:50px;"></span></p>
+                <p>Color: WHite <span class="circle-color" style="background-color: #587098; width: 15px; height: 15px; display: inline-block; border-radius:50px;"></span></p>
             </div>
         </div>
         <hr>
         <div class="d-flex justify-content-between">
             <p>Subtotal</p>
-            <p>Rp 155.000</p>
+            <p>Rp 240.000</p>
         </div>
         <div class="d-flex justify-content-between">
             <p>Shipping</p>
@@ -39,7 +39,7 @@
         <hr>
         <div class="d-flex justify-content-between">
             <p>Total</p>
-            <p id="total-amount">Rp 170.000</p>
+            <p id="total-amount">Rp 255.000</p>
         </div>
     </div>
 </div>

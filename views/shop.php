@@ -92,7 +92,7 @@
 
     <!-- Product Grid -->
     <div class="row g-4" id="product-grid">
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="185000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="240000">
             <div class="card">
                 <a href="shop2.php">
                     <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain wo girl.avif" 
@@ -107,11 +107,11 @@
                     <a href="shop2.php" class="product-link">
                         <h5 class="product-name">Prada Marocain top</h5>
                     </a>
-                    <p class="product-price">Rp 185.000</p>
+                    <p class="product-price">Rp 240.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="185000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="210000">
             <div class="card">
             <img src="../resource/images\Barang_Branded\Female\Top_s\blue shirt prada.avif" 
                     data-hover-src="../resource/images\Barang_Branded\Female\Top_s\blue shirt prada woman.avif"
@@ -121,27 +121,27 @@
                         <p class="product-size">Size L</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">H&M Fitted Blazer Jacket</h5>
-                    <p class="product-price">Rp 185.000</p>
+                    <h5 class="product-name">Prada Blue Shirt</h5>
+                    <p class="product-price">Rp 210.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="s" data-price="175000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="m" data-price="200000">
             <div class="card">
                 <img src="../resource/images/Barang_Branded/Female/Top_s/oversized cotton shirt.avif"
                  data-hover-src="../resource/images/Barang_Branded/Female/Top_s/oversized cotton shirt girl.avif"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size S</p>
+                        <p class="product-size">Size M</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Buttoned Crew Neck Jacket</h5>
-                    <p class="product-price">Rp 175.000</p>
+                    <h5 class="product-name">Prada Oversized Cotton Shirt</h5>
+                    <p class="product-price">Rp 200.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="s" data-price="85000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="s" data-price="120000">
             <div class="card">
                 <img src="../resource/images\Barang_Branded\Female\Top_s\dark brown knitwear.avif" 
                 data-hover-src="../resource/images/Barang_Branded/Female/Top_s/dark brown knitwear woman.avif"
@@ -151,12 +151,12 @@
                         <p class="product-size">Size S</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cardigan Kimono</h5>
-                    <p class="product-price">Rp 85.000</p>
+                    <h5 class="product-name">Prada Dark Brown Knitwear</h5>
+                    <p class="product-price">Rp 120.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="xl" data-price="185000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="xl" data-price="300000">
             <div class="card">
                 <img src="../resource/images\Barang_Branded\Female\Bottom_s\technical grey pants.avif"
                 data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\technical grey pants woman.avif"
@@ -166,42 +166,42 @@
                         <p class="product-size">Size XL</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Pleated High Waisted Pants</h5>
-                    <p class="product-price">Rp 185.000</p>
+                    <h5 class="product-name">Prada Technical Grey Pants</h5>
+                    <p class="product-price">Rp 3000.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="onesize" data-price="305000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="m" data-price="305000">
             <div class="card">
             <img src="../resource/images\Barang_Branded\Female\Bottom_s\sable trousers.avif"
             data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\sable trousers woman.avif"
             class="card-body hover-image">
                 <div class="card-body hover-image">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size 40</p>
+                        <p class="product-size">Size M</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">New Balance Women Shoes</h5>
+                    <h5 class="product-name">Sable Trousers</h5>
                     <p class="product-price">Rp 305.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="onesize" data-price="285000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="bottoms" data-price="285000">
             <div class="card">
             <img src="../resource/images\Barang_Branded\Female\Bottom_s\rush stitch skirt with leather fringe.avif"
             data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\rush stitch skirt with leather fringe woman.avif"
             class="card-img-top hover-image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size 39</p>
+                        <p class="product-size">Size M</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Converse Chuck Taylor All Stars</h5>
+                    <h5 class="product-name">Rush Stitch Skirt with Leather Fringe</h5>
                     <p class="product-price">Rp 285.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="xl" data-price="185000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="xl" data-price="285000">
             <div class="card">
                 <img src="../resource/images\Barang_Branded\Female\Bottom_s\emboridered silk and wool skirt.avif"
                 data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\emboridered silk and wool skirt woman.avif"
@@ -211,12 +211,12 @@
                         <p class="product-size">Size XL</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Cotton Flutter</h5>
-                    <p class="product-price">Rp 185.000</p>
+                    <h5 class="product-name">Embroidered Silk and Wool Skirt</h5>
+                    <p class="product-price">Rp 285.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="185000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="245000">
             <div class="card">
                 <img src="../resource/images\Barang_Branded\Female\Shoes\chuck 70 lunar new year.png" 
                 data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck 70 lunar new year two.png"
@@ -226,8 +226,8 @@
                         <p class="product-size">Size 38</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Converse Chuck Taylor All Star</h5>
-                    <p class="product-price">Rp 285.000</p>
+                    <h5 class="product-name">Converse Chuck 70 Lunar New Year</h5>
+                    <p class="product-price">Rp 245.000</p>
                 </div>
             </div>
         </div>
@@ -241,12 +241,12 @@
                         <p class="product-size">Size 36</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">New Balance Women Shoes</h5>
+                    <h5 class="product-name">Converse Chuck Taylor All Star Move Petals and Pearls High Top</h5>
                     <p class="product-price">Rp 305.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="285000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="125000">
             <div class="card">
                 <img src="../resource/images\Barang_Branded\Female\Shoes\chuck 8- de luxe heel sandal.png" 
                 data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck 8- de luxe heel sandal two.png"
@@ -256,12 +256,12 @@
                         <p class="product-size">Size 41</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Converse Chuck Taylor All Stars</h5>
-                    <p class="product-price">Rp 285.000</p>
+                    <h5 class="product-name">Converse Chuck 8-Deluxe Heel Sandal</h5>
+                    <p class="product-price">Rp 125.000</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="185000">
+        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="220000">
             <div class="card">
                 <img src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane.png" 
                 data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane two.png" 
@@ -271,8 +271,8 @@
                         <p class="product-size">Size 38</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Converse Chuck Taylor All Star</h5>
-                    <p class="product-price">Rp 285.000</p>
+                    <h5 class="product-name">Converse Chuck Taylor All Star Lugged Heel Mary Jane</h5>
+                    <p class="product-price">Rp 220.000</p>
                 </div>
             </div>
         </div>

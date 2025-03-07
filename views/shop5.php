@@ -17,7 +17,7 @@
     <!-- Payment Details -->
     <div class="payment-details p-4 bg-white">
         <h5 class="text-center mb-3">Pay before August 30, 2024 at 23:59</h5>
-        <h1 class="text-center mb-4 payment-amount">Rp 171.500</h1>
+        <h1 class="text-center mb-4 payment-amount">Rp 256.500</h1>
         
         <h4>Payment Method</h4>
         
@@ -56,9 +56,9 @@
         <h4 class="mb-4">Order Summary</h4>
         <div class="card p-4 order-summary-card">
             <div class="d-flex align-items-center">
-                <img src="../resource/images/Barang_Branded/Female/Top_s/Zara Floral Cotton Blouse.jpg" alt="Product Image" class="img-fluid order-product-img" style="width: 100px;">
+                <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain wo girl.avif" alt="Product Image" class="img-fluid order-product-img" style="width: 100px;">
                 <div class="ms-3">
-                    <h5>Cardigan Souffle Uniqlo</h5>
+                    <h5>Prada Morocain</h5>
                     <p>Rp 155.000 &nbsp; x1</p>
                 </div>
             </div>
@@ -66,7 +66,7 @@
             <div class="summary-details">
                 <div class="d-flex justify-content-between">
                     <p>Subtotal</p>
-                    <p>Rp 155.000</p>
+                    <p>Rp 240.000</p>
                 </div>
                 <div class="d-flex justify-content-between">
                     <p>Shipping</p>
@@ -80,7 +80,7 @@
             <hr>
             <div class="d-flex justify-content-between fw-bold total-section">
                 <p>Total</p>
-                <p>Rp 171.500</p>
+                <p>Rp 256.500</p>
             </div>
         </div>
     </div>
