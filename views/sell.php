@@ -12,7 +12,7 @@
 
 <section class="sell-section">
     <h2>Sell Your Items</h2>
-    <form action="{{ route('sell2') }}" method="POST" enctype="multipart/form-data">
+    <form action="../views/sell2.php" method="POST" enctype="multipart/form-data">
         <div class="sell-container">
             <!-- Product Section -->
             <div class="product-section">

@@ -59,7 +59,8 @@
         <h3>Estimated Price of Your Product</h3>
         <p class="price-info">Based on the price research, the estimated price for the product you sent is <strong>Rp 60,000</strong></p>
         
-        <form action="{{ route('sell3') }}" method="POST">
+        <form action="../views/sell3.php" method="POST" enctype="multipart/form-data">
+       
             @csrf
             <label for="input-price">Enter the price you want</label>
             <input type="text" id="input-price" name="price" placeholder="Input Price">
@@ -67,6 +68,7 @@
             <p class="total-price">Total Price: Rp 63,000</p>
 
             <button type="submit">Send Product</button>
+
         </form>
     </div>
 </section>
