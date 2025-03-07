@@ -22,10 +22,12 @@
             <div class="col-md-6">
                 <!-- Text Content -->
                 <div class="hero-text">
-                <img src="../resource/images/Logo_Thriftin.png" alt="Thriftin Logo" class="img-fluid logo-image">
+                <img src="../resource/images/Logo_Thriftin.png" alt="Thriftin Logo" class="img-fluid logo-image-hero">
                     <p class="hero-description">
+                        <br>
                         We are the preloved fashion company in Indonesia and we offer A/B Grade second-hand clothes, shoes, bags, and other used textile products.
                     </p>
+                    <br>
                     <div class="cta-buttons mt-4">
                         <a href="sell.php" class="btn sell-btn">Sell</a>
                         <a href="shop.php" class="btn shop-btn">Shop</a>
@@ -261,25 +263,32 @@
 <div class="more-link mt-3">
     <a href="shop.php">More <img src="../resource/images/Icon_Gambar/Semua_Icon/right_arrow.png" alt="Right Arrow" style="width: 16px; height: 16px;"></a>
 </div>
-
-<!-- Thriftin Section -->
+<!-- Enhanced Thriftin About Us Section -->
+<!-- About Us Section -->
 <section class="about-reward-section container my-5">
-    <h2 class="section-title" id="about">ABOUT US</h2>
-    <p class="about-text">
-        Thriftin merupakan online platform yang menyediakan barang fashion thrift dengan kualitas terbaik.
-    </p>
-    <div class="d-flex justify-content-center">
-        <div class="sdg-icon-wrapper">
+    <div class="text-center">
+        <h2 class="section-title" id="about">Who We Are</h2>
+        <p class="about-text">
+            At <strong>ThriftIn</strong>, we give fashion a second life. Our platform connects people with high-quality thrift fashion, ensuring affordability while promoting sustainability and ethical consumption. Join us in making fashion greener and smarter.
+        </p>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-4 text-center sdg-icon-wrapper">
             <img src="../resource/images/Icon_Gambar/Landing_Page/sdg8.png" alt="SDG 8" class="sdg-icon">
+            <p class="sdg-text">Decent Work & Economic Growth</p>
         </div>
-        <div class="sdg-icon-wrapper">
+        <div class="col-md-4 text-center sdg-icon-wrapper">
             <img src="../resource/images/Icon_Gambar/Landing_Page/sdg9.png" alt="SDG 9" class="sdg-icon">
+            <p class="sdg-text">Industry, Innovation & Infrastructure</p>
         </div>
-        <div class="sdg-icon-wrapper">
+        <div class="col-md-4 text-center sdg-icon-wrapper">
             <img src="../resource/images/Icon_Gambar/Landing_Page/sdg12.png" alt="SDG 12" class="sdg-icon">
+            <p class="sdg-text">Responsible Consumption & Production</p>
         </div>
     </div>
 </section>
+
 
 <!-- UNDP Quote Section -->
 <section class="undp-quote-section">
