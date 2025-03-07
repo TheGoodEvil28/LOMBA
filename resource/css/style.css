@@ -91,7 +91,7 @@ nav ul li a:hover {
     transition: 0.3s ease;
 }
 
-.donate-btn {
+.sell-btn {
     background-color: #3498db;
     color: white;
 }
@@ -183,18 +183,18 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-.donate-section {
+.sell-section {
     padding: 80px 50px;
     text-align: center;
     background-color: #f0f3f4;
 }
 
-.donate-section h2 {
+.sell-section h2 {
     font-size: 32px;
     color: #2c3e50;
 }
 
-.donate-section p {
+.sell-section p {
     font-size: 18px;
     color: #7f8c8d;
     margin: 20px 0;
@@ -498,33 +498,33 @@ textarea {
 }
 
 
-/* Donate Page Styling */
+/* sell Page Styling */
 
-.donate-section {
+.sell-section {
     padding: 80px 50px;
     background-color: #f4f4f9;
     text-align: center;
 }
 
-.donate-section h2 {
+.sell-section h2 {
     font-size: 36px;
     color: #2c3e50;
     margin-bottom: 40px;
 }
 
-.donate-section p {
+.sell-section p {
     font-size: 18px;
     color: #7f8c8d;
     margin-bottom: 40px;
 }
 
-.donate-section .cta-buttons {
+.sell-section .cta-buttons {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.donate-section .btn {
+.sell-section .btn {
     padding: 15px 40px;
     font-size: 18px;
     background-color: #3498db;
@@ -535,7 +535,7 @@ textarea {
     transition: 0.3s ease;
 }
 
-.donate-section .btn:hover {
+.sell-section .btn:hover {
     background-color: #2980b9;
 }
 

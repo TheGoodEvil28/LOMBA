@@ -27,8 +27,8 @@
                         We are the preloved fashion company in Indonesia and we offer A/B Grade second-hand clothes, shoes, bags, and other used textile products.
                     </p>
                     <div class="cta-buttons mt-4">
-                        <a href="sell.php" class="btn donate-btn">Sell</a>
-                        <a href="contactus.php" class="btn shop-btn">Contact Us</a>
+                        <a href="sell.php" class="btn sell-btn">Sell</a>
+                        <a href="shop.php" class="btn shop-btn">Shop</a>
                     </div>
                 </div>
             </div>
@@ -44,13 +44,13 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../resource/images/Icon_Gambar/Landing_Page/banner2.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar\Landing_Page\banner2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../resource/images/Icon_Gambar/Landing_Page/banner1.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar\Landing_Page\banner1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../resource/images/Icon_Gambar/Landing_Page/banner4f.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar\Landing_Page\banner4f.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -270,13 +270,13 @@
     </p>
     <div class="d-flex justify-content-center">
         <div class="sdg-icon-wrapper">
-            <img src="../resource/images/Icon_Gambar\Landing_Page\sdg8.png" alt="SDG 8" class="sdg-icon">
+            <img src="../resource/images/Icon_Gambar/Landing_Page/sdg8.png" alt="SDG 8" class="sdg-icon">
         </div>
         <div class="sdg-icon-wrapper">
-            <img src="../resource/images/Icon_Gambar\Landing_Page\sdg9.png" alt="SDG 9" class="sdg-icon">
+            <img src="../resource/images/Icon_Gambar/Landing_Page/sdg9.png" alt="SDG 9" class="sdg-icon">
         </div>
         <div class="sdg-icon-wrapper">
-            <img src="../resource/images/Icon_Gambar\Landing_Page\sdg12.png" alt="SDG 12" class="sdg-icon">
+            <img src="../resource/images/Icon_Gambar/Landing_Page/sdg12.png" alt="SDG 12" class="sdg-icon">
         </div>
     </div>
 </section>
