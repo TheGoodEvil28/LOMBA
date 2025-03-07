@@ -17,7 +17,7 @@
 <section class="container-content">
     <!-- Product Details Section -->
     <div class="product-details">
-        <h3>Product Details</h3>
+        <h3><b>Product Details</b></h3>
         <div class="product-photo-grid">
             <img src="../resource/images/Barang_Non_Branded/Female/Top_s/Striped Sweater.jpg" alt="Product Photo">
             <div class="photo-item"><img src="../resource/images/Barang_Non_Branded/Kids/Top_s/Long-Sleeved Shirt.jpg" alt="Product Photo"></div>
@@ -66,7 +66,7 @@
 
             <p class="total-price">Total Price: Rp 63,000</p>
 
-            <button type="submit">Send Product</button>
+            <button type="submit"><b>Send Product</b></button>
 
         </form>
     </div>

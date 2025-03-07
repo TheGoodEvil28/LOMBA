@@ -16,12 +16,12 @@
         <div class="sell-container">
             <!-- Product Section -->
             <div class="product-section">
-                <h3>Product</h3>
+                <h3><b>Product</b></h3>
                 <div class="product-photo-grid">
                     <!-- Photo Items -->
                     <div class="photo-item">
                         <label for="add-photo">
-                            <img src="../resource/images/plus.jpg" alt="Add Photo">
+                            <img src="../resource/images/plus.png" alt="Add Photo">
                         </label>
                         <span>Add Photo</span> <!-- Text moved below the image -->
                         <input type="file" id="add-photo" name="photo" style="display:none;">
@@ -39,7 +39,7 @@
 
             <!-- Detail Information Section -->
             <div class="detail-section">
-    <h3>Detail Information</h3>
+    <h3><b>Detail Information</b></h3>
     <label for="category">Category</label>
     <select name="category">
         <option value="">Category</option>
@@ -91,12 +91,10 @@
         </div>
 
         <div class="submit-button">
-            <button type="submit">Submit</button>
+            <button type="submit"><b>Submit</b></button>
         </div>
     </form>
 </section>
-
-<?php include "../layouts/footer.html"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
@@ -117,5 +115,6 @@
         }
     }
 </script>
+<?php include "../layouts/footer.html"; ?>
 </body>
 </html>
