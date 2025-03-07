@@ -8,24 +8,150 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-tabs .nav-link {
+    color: black !important; /* Change to your desired color */
+}
 
-/* Hero Section */
+.nav-tabs .nav-link.active {
+    color: white !important; /* Change color for active tab */
+    background-color: black !important; /* Change background for active tab */
+}
+
+/* hero section */
+
+.hero-image {
+    max-width: 103.5%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 30px;
+    opacity: 0;
+    transform: scale(0.95);
+    animation: fadeInScale 2s ease-in-out forwards, naturalLeftRight 5s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+@keyframes animatedBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.hero-section::before, .hero-section::after {
+    pointer-events: none;
+}
 
 .hero-section {
-    background: linear-gradient(135deg, #F3F6FB 0%, #F6F1EB 100%);
+    position: relative;
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #0b244252 100%);
+    background-size: 200% 200%;
+    animation: gradientShift 10s infinite alternate ease-in-out;
+    overflow: hidden;
 }
+
+/* Soft accent glow */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(255, 223, 150, 0.35) 0%, transparent 60%);
+    filter: blur(60px);
+    z-index: 0;
+    animation: glowMove 3s infinite alternate ease-in-out;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(255, 150, 170, 0.3) 0%, transparent 60%);
+    filter: blur(60px);
+    z-index: 0;
+    animation: glowMove 4s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes glowMove {
+    0% { transform: translateY(40px) scale(1); }
+    100% { transform: translateY(100px) scale(4); }
+}
+
 
 .hero-text {
     padding-left: 50px;
-    /* Adjust left padding to give space from the left */
 }
 
 .hero-description {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 1500;
     color: #7f8c8d;
     line-height: 1.7;
+    margin-right: 80px;
+}
+
+/* Logo Image */
+
+.logo-image-hero {
+    height: 125px;
+    max-width: 90%;
+    margin-left: 80px;
+}
+
+/* Hero Description */
+
+.hero-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #516061;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+
+/* Fade-In & Scale on Load */
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    to {
+        opacity: 1;
+        transform: scale(0.4);
+    }
+}
+
+/* Natural Left-Right Floating Effect */
+@keyframes naturalLeftRight {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(1px);
+    }
+    50% {
+        transform: translateX(-2px);
+    }
+    75% {
+        transform: translateX(1px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
 
 
@@ -38,71 +164,6 @@ body {
     }
 }
 
-
-/* Navbar Styles */
-
-.navbar-nav .nav-link {
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-right: 30px;
-    position: relative;
-    transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: #4B5E7E;
-    left: 0;
-    bottom: -5px;
-    transition: width 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover::after {
-    width: 100%;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #333;
-}
-
-.navbar-nav .nav-link.active::after {
-    width: 100%;
-    background-color: #4B5E7E;
-}
-
-.nav-link i {
-    color: #000;
-    margin-left: 15px;
-}
-
-/* Toko Thrift dan Secondhand Text */
-
-.thrift-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    font-weight: 400;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-
-/* Hero Description */
-
-.hero-description {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    color: #7f8c8d;
-    line-height: 1.7;
-    text-align: left;
-}
-
-
 /* Call-to-action Buttons */
 
 .cta-buttons {
@@ -110,7 +171,7 @@ body {
 }
 
 .cta-buttons .btn {
-    width: 120px;
+    width: 170px;
     padding: 20px 50px;
     /* Increase padding for larger buttons */
     font-size: 20px;
@@ -129,9 +190,9 @@ body {
 }
 
 
-/* Primary Button (Donate) */
+/* Primary Button (sell) */
 
-.donate-btn {
+.sell-btn {
     background-color: #0B2442;
     /* Muted Coral */
     color: white;
@@ -147,8 +208,8 @@ body {
     font-weight: 700;
 }
 
-.donate-btn:hover {
-    background-color: white;
+.sell-btn:hover {
+    background-color: rgb(245, 163, 163);
     color: #0B2442;
     /* Change text color on hover */
     transform: translateY(-3px);
@@ -159,7 +220,7 @@ body {
 /* Secondary Button (Shop) */
 
 .shop-btn {
-    background-color: #ffffff;
+    background-color: #e1dfdf;
     /* Dark Charcoal */
     color: #151616;
     padding: 15px 40px;
@@ -185,21 +246,11 @@ body {
 /* Responsive Adjustments */
 
 @media (max-width: 768px) {
-    .donate-btn,
+    .sell-btn,
     .shop-btn {
         padding: 12px 30px;
         font-size: 16px;
     }
-}
-
-
-/* Hero Image */
-
-.hero-image {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin-top: 30px;
 }
 
 
@@ -252,66 +303,6 @@ body {
         max-width: 90%;
         /* Reduce image size on mobile */
     }
-}
-
-
-/* Logo Image */
-
-.logo-image {
-    height: 50px;
-}
-
-
-/* Navbar Styles */
-
-.navbar-nav .nav-link {
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-right: 30px;
-    position: relative;
-    transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: #4B5E7E;
-    left: 0;
-    bottom: -5px;
-    transition: width 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover::after {
-    width: 100%;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #333;
-}
-
-.navbar-nav .nav-link.active::after {
-    width: 100%;
-    background-color: #4B5E7E;
-}
-
-.nav-link i {
-    color: #000;
-    margin-left: 15px;
-}
-
-
-/* Section Title Styles */
-
-.section-title {
-    font-family: 'Montserrat', serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: #000;
-    margin-bottom: 30px;
-    padding-bottom: 10px;
 }
 
 
@@ -408,103 +399,13 @@ body {
 }
 
 
-/* Hilangkan garis panjang dan pindahkan tab ke sebelah kanan */
 
-.nav-tabs {
-    justify-content: flex-end;
-    border-bottom: none;
-}
-
-.nav-tabs .nav-link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #333;
-    padding: 10px 20px;
-    border: none;
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-.nav-tabs .nav-link.active {
-    font-weight: 600;
-    color: #000;
-}
-
-.nav-tabs .nav-link.active::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -10px;
-    transform: translateX(-50%);
-    width: 80%;
-    height: 3px;
-    background-color: #4B5E7E;
-    transition: width 0.3s ease;
-}
-
-.nav-tabs .nav-link:hover {
-    color: #4B5E7E;
-}
-
-
-/* About Section SDG Icons */
-
-.sdg-icons img {
-    width: 60px;
-    margin-right: 10px;
-}
-
-
-/* Donate Section Styles */
-
-.donate-section {
-    background-color: #D9D9D9;
-    padding: 0;
-    width: 100%;
-    margin: 0;
-}
-
-.donate-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.donate-description {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    color: #333;
-    line-height: 1.8;
-}
-
-
-/* Images grid without gap and border radius */
-
-.donate-images-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0;
-    padding: 0;
-}
-
-.donate-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0;
-    margin: 0;
-    padding: 0;
-}
 
 
 /* Responsive adjustments */
 
 @media (max-width: 576px) {
-    .donate-images-grid {
+    .sell-images-grid {
         grid-template-columns: 1fr;
     }
 }
@@ -550,6 +451,10 @@ body {
     position: absolute;
 }
 
+.carousel-item {
+            transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+        }
+
 
 /* Responsive Adjustments */
 
@@ -575,26 +480,6 @@ body {
     padding: 0;
 }
 
-
-/* Hero Section Adjustments */
-
-.hero-section {
-    background: linear-gradient(135deg, #F3F6FB 0%, #F6F1EB 100%);
-    padding: 0 15px;
-    /* Padding adjustment for mobile screens */
-}
-
-.hero-text {
-    padding-left: 20px;
-    /* Reduce padding for mobile */
-    text-align: center;
-    /* Center text for mobile */
-}
-
-.cta-buttons .btn {
-    padding: 8px 15px;
-    font-size: 14px;
-}
 
 
 /* Fullwidth fix for carousel */
@@ -624,58 +509,164 @@ body {
         padding: 6px 10px;
     }
 }
-
-
-/* About ReWard Section */
-
-.about-reward-section {
-    text-align: center;
-    padding: 40px 0;
-}
-
-.about-reward-section .section-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: #000;
+/* Section Title Strip */
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #111;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
 }
 
-.about-reward-section .about-text {
-    font-family: 'Montserrat', sans-serif;
+/* Strip Below Title */
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px; /* Strip width */
+    height: 4px; /* Strip height */
+    background-color: #28a745; /* Elegant green (change if needed) */
+    margin: 8px auto 0;
+    border-radius: 2px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Slight hover effect */
+.section-title:hover::after {
+    width: 80px; /* Expands slightly on hover */
+}
+
+
+/* Add a soft shadow to give depth */
+.about-reward-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 120%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,0,0,0.02) 10%, rgba(0,0,0,0) 80%);
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.about-reward-section > div {
+    position: relative;
+    z-index: 2;
+}
+
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-text {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    font-weight: 300;
-    color: #333;
-    margin-bottom: 30px;
+    font-weight: 400;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+}
+
+/* SDG Icons Styling */
+.sdg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px; /* More spacing for balance */
 }
 
 .sdg-icon-wrapper {
-    margin: 0 5px;
+    text-align: center;
+    width: 180px;
+    transition: transform 0.3s ease-in-out;
 }
 
+.sdg-icon-wrapper:hover {
+    transform: translateY(-3px) scale(1.05);
+}
+
+/* SDG Icon - Adjust Size Dynamically */
 .sdg-icon {
-    width: 100px;
+    width: min(110px, 12vw); /* Adjusts based on viewport width */
     height: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.1)); /* Soft depth effect */
 }
 
-
-/* Responsive Adjustments for Mobile */
-
-@media (max-width: 576px) {
-    .about-reward-section .section-title {
-        font-size: 28px;
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .sdg-icon {
+        width: min(95px, 14vw); /* Slightly smaller on medium screens */
     }
-    .about-reward-section .about-text {
+}
+
+@media (max-width: 768px) {
+    .sdg-container {
+        gap: 25px;
+    }
+
+    .sdg-icon-wrapper {
+        width: 140px;
+    }
+
+    .sdg-icon {
+        width: min(80px, 18vw); /* Adapts for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .sdg-container {
+        gap: 15px;
+    }
+
+    .sdg-icon-wrapper {
+        width: 120px;
+    }
+
+    .sdg-icon {
+        width: min(70px, 20vw); /* Smaller on very small screens */
+    }
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-reward-section {
+        padding: 60px 20px;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+    .about-text {
         font-size: 16px;
     }
-    .sdg-icon-wrapper {
-        margin: 10px;
-    }
-    .sdg-icon {
-        width: 80px;
-    }
-}
 
+}
 
 /* UNDP Quote Section */
 

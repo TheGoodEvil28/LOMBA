@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,13 +22,15 @@
             <div class="col-md-6">
                 <!-- Text Content -->
                 <div class="hero-text">
-                <img src="../resource/images/Logo_Thriftin.png" alt="Thriftin Logo" class="img-fluid logo-image">
+                <img src="../resource/images/Logo_Thriftin.png" alt="Thriftin Logo" class="img-fluid logo-image-hero">
                     <p class="hero-description">
+                        <br>
                         We are the preloved fashion company in Indonesia and we offer A/B Grade second-hand clothes, shoes, bags, and other used textile products.
                     </p>
+                    <br>
                     <div class="cta-buttons mt-4">
-                        <a href="sell.php" class="btn donate-btn">Sell</a>
-                        <a href="contactus.php" class="btn shop-btn">Contact Us</a>
+                        <a href="sell.php" class="btn sell-btn">Sell</a>
+                        <a href="shop.php" class="btn shop-btn">Shop</a>
                     </div>
                 </div>
             </div>
@@ -42,16 +43,16 @@
 
 <!-- Slider Image Section -->
 <section id="image-slider" class="container-fluid">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1300">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../resource/images/Icon_Gambar/Landing_Page/banner2.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar\Landing_Page\banner2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../resource/images/Icon_Gambar/Landing_Page/banner1.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar\Landing_Page\banner1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../resource/images/Icon_Gambar/Landing_Page/banner4f.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar\Landing_Page\banner4f.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -87,7 +88,9 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images//Barang_Branded/Male/Top_s/Ralph Lauren Slim Fit Mesh Polo Shirt.jpg" class="card-img-top" alt="Ralph Lauren Polo Shirt">
+                        <img src="../resource/images/Barang_Branded/Male/Top_s/Ralph Lauren Slim Fit Mesh Polo Shirt.avif" 
+                        data-hover-src="../resource/images/Barang_Branded/Male/Top_s/Ralph Lauren Slim Fit Mesh Polo Shirt Man.avif"
+                        class="card-img-top hover-image" alt="Ralph Lauren Polo Shirt">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center">
                                 <p class="product-size">Size M</p>
@@ -100,7 +103,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Female/Top_s/Uniqlo Cardigan Souffle.jpg" class="card-img-top" alt="Uniqlo Cardigan Souffle">
+                    <img src="../resource/images/Barang_Branded/Female/Top_s/Cardigan Souffle Uniqlo.avif" 
+                        data-hover-src="../resource/images/Barang_Branded/Female/Top_s/Cardigan Souffle Uniqlo Woman.avif"
+                        class="card-img-top hover-image" alt="Uniqlo Cardigan Souffle">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center">
                                 <p class="product-size">Size L</p>
@@ -113,7 +118,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Male/Top_s/Uniqlo Cotton Crew Neck Long Sleeved.jpg" class="card-img-top" alt="Uniqlo Cotton Crew Neck">
+                        <img src="../resource/images/Barang_Branded/Male/Top_s/Uniqlo Cotton Crew Neck Long Sleeved.avif" 
+                        data-hover-src="../resource/images/Barang_Branded/Male/Top_s/Uniqlo Cotton Crew Neck Long Sleeved Man.jpg" 
+                        class="card-img-top hover-image" alt="Uniqlo Cotton Crew Neck">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center">
                                 <p class="product-size">Size L</p>
@@ -126,7 +133,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images/Barang_Non_Branded/Kids/Top_s/Bomber Jacket.jpg" class="card-img-top" alt="Bomber Jacket">
+                        <img src="../resource/images/Barang_Branded/Male/Top_s/Uniqlo Dry Sweat Full-Zip.avif" 
+                        data-hover-src="../resource/images/Barang_Branded/Male/Top_s/Uniqlo Dry Sweat Full-Zip Man.avif" 
+                        class="card-img-top hover-image" alt="Bomber Jacket">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center">
                                 <p class="product-size">Size M</p>
@@ -262,60 +271,32 @@
 <div class="more-link mt-3">
     <a href="shop.php">More <img src="../resource/images/Icon_Gambar/Semua_Icon/right_arrow.png" alt="Right Arrow" style="width: 16px; height: 16px;"></a>
 </div>
-
-<!-- Donate Section -->
-<section class="donate-section">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <!-- Left Section with 4 images -->
-            <div class="col-md-6 p-0">
-                <div class="donate-images-grid">
-                    <div class="donate-image">
-                        <img src="../resource/images/Icon_Gambar/Landing_Page/gambar3a.png" alt="Image 1" class="img-fluid">
-                    </div>
-                    <div class="donate-image">
-                        <img src="../resource/images/Icon_Gambar/Landing_Page/gambar3b.png" alt="Image 2" class="img-fluid">
-                    </div>
-                    <div class="donate-image">
-                        <img src="../resource/images/Icon_Gambar/Landing_Page/gambar3c.png" alt="Image 3" class="img-fluid">
-                    </div>
-                    <div class="donate-image">
-                        <img src="../resource/images/Icon_Gambar/Landing_Page/gambar3d.png" alt="Image 4" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-            <!-- Right Section with Text -->
-            <div class="col-md-6 d-flex align-items-center p-5">
-                <div>
-                    <h2 class="donate-title">DONATE</h2>
-                    <p class="donate-description">
-                        We are the preloved fashion company in Indonesia and we offer A/B Grade second-hand clothes,
-                        shoes, bags, and other used textile products. <strong><a href="/donate" class="donate-link">Donate now!</a></strong>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Thriftin Section -->
+<!-- Enhanced Thriftin About Us Section -->
+<!-- About Us Section -->
 <section class="about-reward-section container my-5">
-    <h2 class="section-title" id="about">ABOUT US</h2>
-    <p class="about-text">
-        Thriftin merupakan online platform yang menyediakan barang fashion thrift dengan kualitas terbaik.
-    </p>
-    <div class="d-flex justify-content-center">
-        <div class="sdg-icon-wrapper">
-            <img src="../resource/images/Icon_Gambar\Landing_Page\sdg8.png" alt="SDG 8" class="sdg-icon">
+    <div class="text-center">
+        <h2 class="section-title" id="about">Who We Are</h2>
+        <p class="about-text">
+            At <strong>ThriftIn</strong>, we give fashion a second life. Our platform connects people with high-quality thrift fashion, ensuring affordability while promoting sustainability and ethical consumption. Join us in making fashion greener and smarter.
+        </p>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-4 text-center sdg-icon-wrapper">
+            <img src="../resource/images/Icon_Gambar/Landing_Page/sdg8.png" alt="SDG 8" class="sdg-icon">
+            <p class="sdg-text">Decent Work & Economic Growth</p>
         </div>
-        <div class="sdg-icon-wrapper">
-            <img src="../resource/images/Icon_Gambar\Landing_Page\sdg9.png" alt="SDG 9" class="sdg-icon">
+        <div class="col-md-4 text-center sdg-icon-wrapper">
+            <img src="../resource/images/Icon_Gambar/Landing_Page/sdg9.png" alt="SDG 9" class="sdg-icon">
+            <p class="sdg-text">Industry, Innovation & Infrastructure</p>
         </div>
-        <div class="sdg-icon-wrapper">
-            <img src="../resource/images/Icon_Gambar\Landing_Page\sdg12.png" alt="SDG 12" class="sdg-icon">
+        <div class="col-md-4 text-center sdg-icon-wrapper">
+            <img src="../resource/images/Icon_Gambar/Landing_Page/sdg12.png" alt="SDG 12" class="sdg-icon">
+            <p class="sdg-text">Responsible Consumption & Production</p>
         </div>
     </div>
 </section>
+
 
 <!-- UNDP Quote Section -->
 <section class="undp-quote-section">
@@ -330,6 +311,33 @@
 <!-- Bootstrap JS and Icons -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css"></script>
+<script>
+document.querySelectorAll('.hover-image').forEach(img => {
+  const originalSrc = img.src;
+  const hoverSrc = img.dataset.hoverSrc;
+
+  img.addEventListener('mouseenter', () => {
+    // Set timeout for 1 second (1000ms)
+    hoverTimeout = setTimeout(() => {
+      img.style.opacity = '0';
+      setTimeout(() => {
+        img.src = hoverSrc;
+        img.style.opacity = '1';
+      }, 150); // This 150ms is for the fade effect
+    }, 350);
+  });
+
+  img.addEventListener('mouseleave', () => {
+    // Clear the timeout if mouse leaves before 1 second
+    clearTimeout(hoverTimeout);
+    img.style.opacity = '0';
+    setTimeout(() => {
+      img.src = originalSrc;
+      img.style.opacity = '1';
+    }, 150);
+  });
+});
+</script>
 <?php include "../layouts/footer.html"; ?>
 
 </body>
