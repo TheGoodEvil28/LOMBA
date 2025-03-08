@@ -1,95 +1,61 @@
-
-
 /* Footer Styling */
 footer {
     background-color: #0B2442;
-    padding: 50px 0;
     color: #F7F7F6;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0; /* Ensure no extra padding */
+    margin-bottom: 0; /* Remove any margin */
+}
+
+.footer-bar {
+    text-align: center;
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 5px; /* Reduce top space */
+    padding-bottom: 5px; /* Reduce bottom padding */
 }
 
 .footer-title {
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 15px;
     color: #ffffff;
-    margin-bottom: 20px;
-}
-
-footer ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer ul li {
-    margin-bottom: 10px;
 }
 
 .footer-link {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     color: #F6F1EB;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease-in-out;
 }
 
 .footer-link:hover {
     color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .footer-text {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: #ddd;
 }
 
-.footer-bar {
-    
-    padding: 10px 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: auto; /* Ensures footer stays at bottom */
-}
 
-.footer-bar p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    color: #bbb;
-}
 
 .bi {
+    font-size: 16px;
+    margin-right: 8px;
     color: #fff;
-    font-size: 18px;
-    margin-right: 10px;
 }
 
-/* Override default link styles */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    color: inherit;
-}
-
-/* Responsive adjustments */
+/* Responsive Design */
 @media (max-width: 768px) {
     .footer-title {
         font-size: 14px;
     }
     .footer-text,
     .footer-link {
-        font-size: 10px;
-    }
-    footer {
-        padding: 20px 0; /* Adjust footer padding for smaller screens */
+        font-size: 12px;
     }
 }

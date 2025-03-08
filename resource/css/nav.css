@@ -226,3 +226,59 @@ body {
 .position-absolute {
     position: absolute;
 }
+/* Desktop view - Center navigation */
+@media (min-width: 769px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .mobile-menu-item {
+        display: inline-block; /* Keeps the items aligned in the center */
+        text-align: center;
+    }
+    
+    .mobile-arrow {
+        display: none !important; /* Hide arrow on desktop */
+    }
+}
+
+/* Mobile view - Align left and show hamburger */
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: block; /* Stack items vertically */
+        text-align: left;
+    }
+
+    .navbar-toggler {
+        display: block; /* Ensure the hamburger is visible */
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        width: 30px;
+        height: 30px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='none' stroke='%23000' viewBox='0 0 24 24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='3' y1='12' x2='21' y2='12'%3E%3C/line%3E%3Cline x1='3' y1='6' x2='21' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='18' x2='21' y2='18'%3E%3C/line%3E%3C/svg%3E");
+    }
+
+    .mobile-menu-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 15px;
+    }
+
+    .mobile-text {
+        flex-grow: 1; /* Keeps text aligned to the left */
+    }
+
+    .mobile-arrow {
+        font-size: 14px;
+        color: #4B5E7E;
+        display: inline-block; /* Show arrow on mobile */
+    }
+}
+

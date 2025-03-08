@@ -82,25 +82,95 @@
         </li>
     </ul>
 
+    
+
  <!-- Tab content -->
  <div class="tab-content">
         <!-- New Arrivals Tab -->
         <div class="tab-pane fade show active" id="newArrivals">
-            <div class="row">
+            
+        <div class="row">
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Male/Top_s/Ralph Lauren Slim Fit Mesh Polo Shirt.avif" 
-                        data-hover-src="../resource/images/Barang_Branded/Male/Top_s/Ralph Lauren Slim Fit Mesh Polo Shirt Man.avif"
-                        class="card-img-top hover-image" alt="Ralph Lauren Polo Shirt">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size M</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">Ralph Lauren Slim Fit Mesh Polo Shirt</h5>
-                            <p class="product-price">Rp 255.000</p>
-                        </div>
+                    <img src="../resource/images\Barang_Branded\Male\Top_s\striped silk and cotton polo shirt.avif" 
+                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\striped silk and cotton polo shirt man.avif"
+                    class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size L</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
+                    <h5 class="product-name">Striped Silk and Cotton Polo Shirt</h5>
+                    <p class="product-price">Rp 190.000</p>
+                </div>
+                </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                    <img src="../resource/images\Barang_Branded\Male\Bottom_s\Air Jordan Men's Trousers.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Bottom_s\Air Jordan Men's Trousers man.png"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size XL</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
+                    </div>
+                    <h5 class="product-name">Air Jordan Men's Trousers</h5>
+                    <p class="product-price">Rp 170.000</p>
+                </div>
+            </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                    <img src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Club Fleece.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Club Fleece man.png"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size XL</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
+                    </div>
+                    <h5 class="product-name">Nike Club Fleece</h5>
+                    <p class="product-price">Rp 250.000</p>
+                </div>
+            </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                    <img src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Kobe Men's Pleated Trousers.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Kobe Men's Pleated Trousers man.png"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size XL</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
+                    </div>
+                    <h5 class="product-name">Nike Kobe Men's Pleated Trousers</h5>
+                    <p class="product-price">Rp 185.000</p>
+                </div>
+            </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Popular Products Tab -->
+        <div class="tab-pane fade" id="popularProducts">
+        <div class="row">
+                <div class="col-md-3">
+                    <div class="card product-card">
+                    <img src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Victory+ Men's Water-Repellent Golf Trousers.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Victory+ Men's Water-Repellent Golf Trousers man.png"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size XL</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
+                    </div>
+                    <h5 class="product-name">Nike Victory+ Men's Water-Repellent Golf Trousers</h5>
+                    <p class="product-price">Rp 210.000</p>
+                </div>
+            </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card product-card">
@@ -150,119 +220,68 @@
             </div>
         </div>
 
-        <!-- Popular Products Tab -->
-        <div class="tab-pane fade" id="popularProducts">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Female/Bottom_s/H&M Cotton Cargo Shorts.jpg" class="card-img-top" alt="H&M Cotton Cargo Shorts">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size L</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">H&M Cotton Cargo Shorts</h5>
-                            <p class="product-price">Rp 200.000</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Female/Top_s/Adidas Women Future Bomber Jacket.jpg" class="card-img-top" alt="Adidas Future Bomber Jacket">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size M</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">Adidas Women Future Bomber Jacket</h5>
-                            <p class="product-price">Rp 241.000</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Female/Bottom_s/Prada_Mesh Floral Skirt.jpg" class="card-img-top" alt="Mesh Floral Skirt">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size L</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">Mesh Floral Skirt</h5>
-                            <p class="product-price">Rp 200.000</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Male/Top_s/Levi_s Vintage Wellthread Jacket.jpg" class="card-img-top" alt="Levi's Wellthread Jacket">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size L</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">Levi's Vintage Wellthread Jacket</h5>
-                            <p class="product-price">Rp 300.000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Best Sellers Tab -->
         <div class="tab-pane fade" id="bestSellers">
             <div class="row">
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Male/Top_s/Nike Grey Long Sleeve.jpg" class="card-img-top" alt="Nike Grey Long Sleeve">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size M</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">Nike Grey Long Sleeve</h5>
-                            <p class="product-price">Rp 155.000</p>
-                        </div>
+                    <img src="../resource/images/Barang_Branded/Kids/bottom_s/light denim blue.avif" 
+                data-hover-src="../resource/images/Barang_Branded/Kids/bottom_s/light denim blue boy.avif"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size M</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
+                    <h5 class="product-name">Light Denim Blue</h5>
+                    <p class="product-price">Rp 110.000</p>
+                </div>
+            </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Female/Shoes/Adidas Women_s Gazelle.jpg" class="card-img-top" alt="Adidas Gazelle">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size 39</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">Adidas Women's Gazelle</h5>
-                            <p class="product-price">Rp 355.000</p>
-                        </div>
+                    <img src="../resource/images/Barang_Branded/Kids/bottom_s/loose fit jeans.avif" 
+                data-hover-src="../resource/images/Barang_Branded/Kids/bottom_s/loose fit jeans boy.avif"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size S</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
+                    <h5 class="product-name">Loose Fit Jeans</h5>
+                    <p class="product-price">Rp 115.000</p>
+                </div>
+            </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Female/Shoes/GUCCI  Horsebit Loafers.jpg" class="card-img-top" alt="GUCCI Horsebit Loafers">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size 38</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">GUCCI Horsebit Loafers</h5>
-                            <p class="product-price">Rp 499.999</p>
-                        </div>
+                    <img src="../resource/images/Barang_Branded/Female/Top_s/oversized cotton shirt.avif"
+                 data-hover-src="../resource/images/Barang_Branded/Female/Top_s/oversized cotton shirt girl.avif"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size M</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
+                    <h5 class="product-name">Prada Oversized Cotton Shirt</h5>
+                    <p class="product-price">Rp 200.000</p>
+                </div>
+            </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card product-card">
-                        <img src="../resource/images/Barang_Branded/Male/Bottom_s/Nike SB Kearny Cargo Pants.jpg" class="card-img-top" alt="Nike SB Cargo Pants">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="product-size">Size L</p>
-                                <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
-                            </div>
-                            <h5 class="product-name">Nike SB Kearny Cargo Pants</h5>
-                            <p class="product-price">Rp 155.000</p>
-                        </div>
+                    <img src="../resource/images\Barang_Branded\Female\Bottom_s\rush stitch skirt with leather fringe.avif"
+            data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\rush stitch skirt with leather fringe woman.avif"
+            class="card-img-top hover-image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size M</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
+                    <h5 class="product-name">Rush Stitch Skirt with Leather Fringe</h5>
+                    <p class="product-price">Rp 285.000</p>
                 </div>
+            </div>
             </div>
         </div>
     </div>

@@ -17,15 +17,46 @@ body {
     background-color: black !important; /* Change background for active tab */
 }
 
+.nav-tabs .nav-link {
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.nav-tabs .nav-link.active::after {
+    width: 100%;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000000;
+}
+
+
 /* hero section */
 
 .hero-image {
-    max-width: 103.5%;
+    max-width: 100%;
     height: auto;
     object-fit: contain;
-    margin-top: 30px;
-    opacity: 0;
-    transform: scale(0.95);
+    margin-top: 40px;
+    opacity: 1;
+    position: relative; /* Change from sticky to relative */
+    z-index: 10; /* Ensure it does not overlap the carousel */
+    transform: scale(1);
     animation: fadeInScale 2s ease-in-out forwards, naturalLeftRight 5s ease-in-out infinite;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -54,6 +85,7 @@ body {
     background-size: 200% 200%;
     animation: gradientShift 10s infinite alternate ease-in-out;
     overflow: hidden;
+    
 }
 .hero-section::before, .hero-section::after {
     pointer-events: none;
@@ -113,9 +145,10 @@ body {
 /* Logo Image */
 
 .logo-image-hero {
-    height: 125px;
-    max-width: 90%;
-    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
 }
 
 /* Hero Description */
@@ -163,14 +196,6 @@ body {
 }
 
 
-/* Responsive Adjustments */
-
-@media (max-width: 768px) {
-    .hero-text {
-        padding-left: 20px;
-        /* Reduce padding on smaller screens */
-    }
-}
 
 /* Call-to-action Buttons */
 
@@ -228,8 +253,7 @@ body {
 /* Secondary Button (Shop) */
 
 .shop-btn {
-    background-color: #e1dfdf;
-    /* Dark Charcoal */
+    background-color: #e1dfdf; /* Light gray */
     color: #151616;
     padding: 15px 40px;
     font-size: 20px;
@@ -243,11 +267,9 @@ body {
 }
 
 .shop-btn:hover {
-    background-color: #0B2442;
+    background-color: #0B2442; /* Dark blue */
     color: white;
-    /* Darker hover color */
     transform: translateY(-3px);
-    /* Slight button lift on hover */
 }
 
 
@@ -262,56 +284,7 @@ body {
 }
 
 
-/* Responsive Adjustments */
 
-@media (max-width: 992px) {
-    .thriftIn-title {
-        font-size: 70px;
-        /* Adjust font size for tablets */
-    }
-    .thrift-title {
-        font-size: 24px;
-    }
-    .hero-description {
-        font-size: 16px;
-    }
-    .cta-buttons .btn {
-        font-size: 16px;
-        padding: 10px 30px;
-    }
-    .hero-section {
-        text-align: center;
-        /* Center content on tablet */
-    }
-    .hero-image {
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 576px) {
-    .thriftIn-title {
-        font-size: 50px;
-        /* Adjust font size for mobile */
-    }
-    .thrift-title {
-        font-size: 20px;
-    }
-    .hero-description {
-        font-size: 14px;
-    }
-    .cta-buttons .btn {
-        font-size: 14px;
-        padding: 8px 20px;
-    }
-    .hero-section {
-        padding: 30px 15px;
-    }
-    .hero-image {
-        margin-top: 10px;
-        max-width: 90%;
-        /* Reduce image size on mobile */
-    }
-}
 
 
 /* Product Grid */
@@ -410,13 +383,6 @@ body {
 
 
 
-/* Responsive adjustments */
-
-@media (max-width: 576px) {
-    .sell-images-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 
 /* Section Carousel Styling */
@@ -442,10 +408,9 @@ body {
 
 .carousel-item img {
     width: 100%;
-    /* Ensure images span the full width */
-    height: 300px;
-    object-fit: cover;
-    /* Prevent image distortion */
+    height: auto; /* Ensures image scales properly */
+    object-fit: contain; /* Prevents cropping */
+    max-height: 450px; /* Adjust this based on your design */
 }
 
 .carousel-inner {
@@ -548,6 +513,8 @@ body {
 }
 
 
+
+
 /* Add a soft shadow to give depth */
 .about-thriftIn-section::before {
     content: "";
@@ -613,40 +580,6 @@ body {
     filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.1)); /* Soft depth effect */
 }
 
-/* Responsive Adjustments */
-@media (max-width: 1024px) {
-    .sdg-icon {
-        width: min(95px, 14vw); /* Slightly smaller on medium screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .sdg-container {
-        gap: 25px;
-    }
-
-    .sdg-icon-wrapper {
-        width: 140px;
-    }
-
-    .sdg-icon {
-        width: min(80px, 18vw); /* Adapts for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .sdg-container {
-        gap: 15px;
-    }
-
-    .sdg-icon-wrapper {
-        width: 120px;
-    }
-
-    .sdg-icon {
-        width: min(70px, 20vw); /* Smaller on very small screens */
-    }
-}
 
 /* Fade-in animation */
 @keyframes fadeInUp {
@@ -660,21 +593,6 @@ body {
     }
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-thriftIn-section {
-        padding: 60px 20px;
-    }
-
-    .section-title {
-        font-size: 34px;
-    }
-
-    .about-text {
-        font-size: 16px;
-    }
-
-}
 
 /* UNDP Quote Section */
 
@@ -702,4 +620,191 @@ body {
     color: white;
     text-align: center;
     padding: 0 20px;
+}
+
+/* General Responsive Adjustments */
+@media (max-width: 1024px) {
+    .sdg-icon {
+        width: min(95px, 14vw); /* Slightly smaller on medium screens */
+    }
+}
+
+/* Tablet Optimization */
+@media (max-width: 992px) {
+    .thriftIn-title {
+        font-size: 60px; /* Adjusted for tablets */
+    }
+    .thrift-title {
+        font-size: 22px;
+    }
+    .hero-description {
+        font-size: 16px;
+    }
+    .cta-buttons .btn {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    .hero-section {
+        text-align: center;
+        padding: 50px 20px;
+    }
+    .hero-image {
+        margin-top: 20px;
+        max-width: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .thriftIn-title {
+        font-size: 50px; /* Adjusted for mobile */
+    }
+    .thrift-title {
+        font-size: 20px;
+    }
+    .hero-description {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .cta-buttons .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+        width: 80%;
+        max-width: 250px;
+    }
+    .hero-section {
+        padding: 40px 15px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        max-width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px; /* Reduce margin on mobile */
+        position: relative; /* Ensure it doesn't overlap */
+    }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 576px) {
+    .thriftIn-title {
+        font-size: 45px; /* Adjusted for smaller mobile screens */
+    }
+    .thrift-title {
+        font-size: 18px;
+    }
+    .hero-description {
+        font-size: 13px;
+    }
+    .cta-buttons .btn {
+        font-size: 13px;
+        padding: 8px 18px;
+    }
+    .hero-section {
+        padding: 30px 10px;
+    }
+    .hero-image {
+        margin-top: 10px;
+        max-width: 85%;
+    }
+    .sell-images-grid {
+        grid-template-columns: 1fr; /* Stack images */
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 20px 5px;
+    }
+    .thriftIn-title {
+        font-size: 40px;
+    }
+    .thrift-title {
+        font-size: 16px;
+    }
+    .hero-description {
+        font-size: 12px;
+    }
+    .cta-buttons .btn {
+        width: 90%;
+        max-width: 220px;
+    }
+    .hero-image {
+        max-width: 80%;
+    }
+}
+
+/* Grid & Spacing Adjustments */
+@media (max-width: 768px) {
+    .about-thriftIn-section {
+        padding: 50px 15px;
+    }
+    .section-title {
+        font-size: 32px;
+    }
+    .about-text {
+        font-size: 15px;
+    }
+}
+
+/* SDG Icons Responsive */
+@media (max-width: 768px) {
+    .sdg-container {
+        gap: 20px;
+    }
+    .sdg-icon-wrapper {
+        width: 120px;
+    }
+    .sdg-icon {
+        width: min(75px, 18vw);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .hero-image {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    #image-slider {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .carousel-inner {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .carousel {
+        margin-top: -62px !important;
+        padding-top: 0 !important;
+        margin-bottom: -62px !important;
+    }
+    
+}
+@media (max-width: 768px) {
+    .carousel-item img {
+        max-height: 250px; /* Adjust height for smaller screens */
+    }
 }
