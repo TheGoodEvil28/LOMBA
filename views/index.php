@@ -23,7 +23,7 @@
             <div class="col-md-6">
                 <!-- Text Content -->
                 <div class="hero-text">
-                <img src="../resource/images/Logo_Thriftin.png" alt="Thriftin Logo" class="img-fluid logo-image-hero">
+                    <img src="../resource/images/Logo_Thriftin.png" alt="Thriftin Logo" class="img-fluid logo-image-hero">
                     <p class="hero-description">
                         <br>
                         We are the preloved fashion company in Indonesia and we offer A/B Grade second-hand clothes, shoes, bags, and other used textile products.
@@ -47,13 +47,13 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1300">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../resource/images/Icon_Gambar\Landing_Page\banner2.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar/Landing_Page/banner2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../resource/images/Icon_Gambar\Landing_Page\banner1.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar/Landing_Page/banner1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../resource/images/Icon_Gambar\Landing_Page\banner4f.png" class="d-block w-100" alt="...">
+                <img src="../resource/images/Icon_Gambar/Landing_Page/banner4f.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

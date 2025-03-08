@@ -24,10 +24,9 @@
                         <label for="add-photo">
                             <img src="../resource/images/plus.png" alt="Add Photo">
                         </label>
-                        <span>Add Photo</span> <!-- Text moved below the image -->
+                        <span>Add Photo</span> 
                         <input type="file" id="add-photo" name="photo" style="display:none;">
                     </div>
-                    <!-- Additional empty photo blocks for future uploads -->
                     <div class="photo-item"></div>
                     <div class="photo-item"></div>
                     <div class="photo-item"></div>
@@ -40,55 +39,56 @@
 
             <!-- Detail Information Section -->
             <div class="detail-section">
-    <h3><b>Detail Information</b></h3>
-    <label for="category">Category</label>
-    <select name="category">
-        <option value="">Category</option>
-        <option value="Women's Fashion">Women's Fashion</option>
-        <option value="Men's Fashion">Men's Fashion</option>
-        <option value="Kid's Fashion">Kid's Fashion</option>
-    </select>
-    
-    <label for="brand">Brand</label>
-    <select name="brand">
-        <option value="">Brand</option>
-        <option value="Uniqlo">Uniqlo</option>
-        <option value="Zara">Zara</option>
-        <option value="Adidas">Adidas</option>
-    </select>
+                <h3><b>Detail Information</b></h3>
 
-    <label for="condition">Condition</label>
-    <select name="condition">
-        <option value="">Condition</option>
-        <option value="New">New</option>
-        <option value="Like New">Like New</option>
-        <option value="Used">Used</option>
-    </select>
-    <label for="size">Color</label>
-    <select name="color">
+                <label for="category">Category</label>
+                <select name="category">
+                    <option value="">Category</option>
+                    <option value="Women's Fashion">Women's Fashion</option>
+                    <option value="Men's Fashion">Men's Fashion</option>
+                    <option value="Kid's Fashion">Kid's Fashion</option>
+                </select>
+
+                <label for="brand">Brand</label>
+                <select name="brand">
+                    <option value="">Brand</option>
+                    <option value="Uniqlo">Uniqlo</option>
+                    <option value="Zara">Zara</option>
+                    <option value="Adidas">Adidas</option>
+                </select>
+
+                <label for="condition">Condition</label>
+                <select name="condition">
+                    <option value="">Condition</option>
+                    <option value="New">New</option>
+                    <option value="Like New">Like New</option>
+                    <option value="Used">Used</option>
+                </select>
+
+                <label for="color">Color</label>
+                <select name="color">
                     <option value="">Color</option>
                     <option value="Red">Red</option>
                     <option value="Blue">Blue</option>
                     <option value="Black">Black</option>
                 </select>
 
-    <label for="size">Size</label>
-    <select name="size">
-        <option value="">Size</option>
-        <option value="Small">Small</option>
-        <option value="Medium">Medium</option>
-        <option value="Large">Large</option>
-    </select>
+                <label for="size">Size</label>
+                <select name="size">
+                    <option value="">Size</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
 
-    <label for="fabric">Type of Fabric</label>
-    <select name="fabric">
-        <option value="">Type of Fabric</option>
-        <option value="Cotton">Cotton</option>
-        <option value="Polyester">Polyester</option>
-        <option value="Wool">Wool</option>
-    </select>
-</div>
-
+                <label for="fabric">Type of Fabric</label>
+                <select name="fabric">
+                    <option value="">Type of Fabric</option>
+                    <option value="Cotton">Cotton</option>
+                    <option value="Polyester">Polyester</option>
+                    <option value="Wool">Wool</option>
+                </select>
+            </div>
         </div>
 
         <div class="submit-button">
@@ -98,9 +98,6 @@
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-
 
 <script>
     function previewImage(event) {
@@ -116,6 +113,7 @@
         }
     }
 </script>
+
 <?php include "../layouts/footer.html"; ?>
 </body>
 </html>

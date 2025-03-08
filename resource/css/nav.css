@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        margin-top: 100px;
+        margin-top: 150px;
         /* Add more space for mobile */
     }
 }
@@ -339,4 +339,3 @@ body {
         display: inline-block; /* Show arrow on mobile */
     }
 }
-

@@ -12,79 +12,89 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 
-<style>
 
+<style>
     /* Order Success Section */
     .order-success-section {
-        margin-top: 8rem; /* Increased top margin for better spacing with navbar */
-        margin-bottom: 4rem;
-        width: 100%;
-        max-width: 560px; /* Adjust width for the entire section */
+        margin-top: 6rem; /* Adjusted for better spacing */
+        margin-bottom: 3rem;
+        width: 90%; /* Increased responsiveness */
+        max-width: 500px;
         margin-left: auto;
-        margin-right: auto; /* Center the section */
+        margin-right: auto;
     }
 
-    /* Adjusted the spacing of the "Yeay, Order Successful!" text */
+    /* Title Styling */
     .order-title {
         font-weight: bold;
-        font-size: 36px;
+        font-size: 32px;
         color: #333;
-        margin-bottom: 50px; /* More bottom margin for spacing */
+        margin-bottom: 30px; 
     }
 
+    /* Success Image */
     .order-image img {
-        max-width: 350px;
+        max-width: 100%;
         height: auto;
     }
 
-    /* Adjusted the size of the payment card */
+    /* Payment Card */
     .payment-card {
-        width: 100%; /* Adjust to 100% of the section */
-        padding: 14px;
+        width: 100%;
+        padding: 15px;
         border-radius: 10px;
         border: 1px solid #ddd;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        margin-bottom: 30px; /* Added bottom margin */
+        justify-content: space-between;
+        margin-bottom: 20px;
     }
 
-    /* Adjusted button width */
-    .btn-large {
-        width: 100%; /* Full width button */
-        background-color: #000;
-        font-size: 18px;
-        padding: 15px;
-    }
-
-    /* Payment logo */
+    /* Payment Logo */
     .payment-logo {
         width: 50px;
+        height: auto;
     }
 
+    /* Payment Amount */
     .payment-amount {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: bold;
         color: #333;
-        padding-left: 280px; /* Space between icon and text */
+    }
+
+    /* Button Styling */
+    .btn-large {
+        width: 100%;
+        background-color: #000;
+        font-size: 18px;
+        padding: 14px;
+        border-radius: 8px;
     }
 
     /* Responsive Adjustments */
     @media (max-width: 768px) {
-        .order-image img {
-            max-width: 250px;
-        }
-
-        .payment-method-details .payment-amount {
-            font-size: 20px;
-        }
-
-        .payment-card {
-            padding: 15px;
+        .order-success-section {
+            width: 100%;
+            padding: 0 15px;
         }
 
         .order-title {
-            font-size: 30px;
+            font-size: 28px;
+        }
+
+        .payment-card {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 12px;
+        }
+
+        .payment-logo {
+            width: 45px;
+        }
+
+        .payment-amount {
+            font-size: 20px;
         }
 
         .btn-large {
@@ -94,21 +104,25 @@
     }
 
     @media (max-width: 576px) {
-        .order-image img {
-            max-width: 200px;
+        .order-title {
+            font-size: 26px;
         }
 
-        .payment-method-details .payment-amount {
+        .payment-logo {
+            width: 40px;
+        }
+
+        .payment-amount {
             font-size: 18px;
         }
 
         .btn-large {
-            font-size: 14px;
+            font-size: 15px;
             padding: 10px;
         }
     }
-
 </style>
+
 
 <body>
 <?php include "../layouts/navbar.html"; ?>

@@ -29,7 +29,7 @@
                 <img src="../resource/images/Icon_Gambar/Order_Sell/Logo BCA.png" alt="BCA" class="payment-logo">
                 <img src="../resource/images/Icon_Gambar/Order_Sell/Logo Mandiri.png" alt="Mandiri" class="payment-logo">
                 <img src="../resource/images/Icon_Gambar/Order_Sell/Logo BRI.png" alt="BRI" class="payment-logo">
-                <a href="shop7.php" target="_blank">
+                <a href="shop7.php" >
                 <img src="../resource/images/Icon_Gambar/Order_Sell/Logo BNI.png" alt="BNI" class="payment-logo">
                 </a>
             </div>
@@ -38,7 +38,7 @@
         <!-- E-Wallet Box -->
         <div class="card p-2 mb-4 payment-box e-wallet-box">
             <h5>E-Wallet</h5>
-            <a href="shop6.php" target="_blank">
+            <a href="shop6.php" >
                 <img src="../resource/images/Icon_Gambar/RewardPoint/logo_linkAja.png" alt="LinkAja" class="e-wallet">
             </a>
         </div>
@@ -46,7 +46,7 @@
         <!-- QR Payment Box -->
         <div class="card p-2 mb-4 d-flex justify-content-between align-items-left payment-box qr-payment-box">
             <h5>QR Payment</h5>
-            <a href="shop8.php" target="_blank">
+            <a href="shop8.php" >
             <img src="../resource/images/Icon_Gambar/Order_Sell/Logo QRIS.png" alt="QR Payment" class="qr-payment">
             </a>
         </div>
