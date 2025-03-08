@@ -174,9 +174,9 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="bottoms" data-size="m" data-price="305000">
             <div class="card">
-            <img src="../resource/images\Barang_Branded\Female\Bottom_s\sable trousers.avif"
-            data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\sable trousers woman.avif"
-            class="card-body hover-image">
+            <img src="../resource/images\Barang_Branded\Female\Bottom_s\sable trousers.png"
+            data-hover-src="../resource/images\Barang_Branded\Female\Bottom_s\sable trousers woman.png"
+            class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body hover-image">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="product-size">Size M</p>
@@ -219,8 +219,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="245000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck 70 lunar new year.png" 
-                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck 70 lunar new year two.png"
+                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck 70 lunar new year two.png" 
+                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck 70 lunar new year.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -234,8 +234,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="305000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck taylor all star move petals and pearls high top.png" 
-                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck taylor all star move petals and pearls high top two.png" 
+                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck taylor all star move petals and pearls high top two.png" 
+                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck taylor all star move petals and pearls high top.png" 
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -249,8 +249,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="125000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck 8- de luxe heel sandal.png" 
-                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck 8- de luxe heel sandal two.png"
+                <img src="../resource/images\Barang_Branded\Female\Shoes\chuck 8- de luxe heel sandal two.png" 
+                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chuck 8- de luxe heel sandal.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -264,8 +264,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="220000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane.png" 
-                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane two.png" 
+                <img src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane two.png" 
+                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane.png" 
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
