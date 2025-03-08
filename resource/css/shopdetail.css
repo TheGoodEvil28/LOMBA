@@ -180,3 +180,15 @@ body {
     transform: scale(1.2);
     /* Tidak ada shadow saat hover */
 }
+
+/* Ensure product links do not appear as blue */
+.product-link {
+    text-decoration: none;  /* Remove underline */
+    color: #0B2442;  /* Match your theme color */
+    font-weight: 600;
+}
+
+.product-link:hover {
+    color: #4B5E7E;  /* Slight color change on hover */
+    text-decoration: none;
+}

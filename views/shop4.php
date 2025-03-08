@@ -24,8 +24,8 @@
             <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain wo girl.avif" alt="Product Image" class="img-fluid" style="width: 100px; height: auto; margin-right: 20px;">
             <div>
                 <h5>Prada Morocain</h5>
-                <p>Size L - Kondisi sangat baik</p>
-                <p>Color: WHite <span class="circle-color" style="background-color: #587098; width: 15px; height: 15px; display: inline-block; border-radius:50px;"></span></p>
+                <p>Size L - Good Condition</p>
+                <p>Color: White <span class="circle-color" style="background-color: #587098; width: 15px; height: 15px; display: inline-block; border-radius:50px;"></span></p>
             </div>
         </div>
         <hr>

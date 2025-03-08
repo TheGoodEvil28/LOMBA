@@ -39,7 +39,7 @@
         <div class="card p-2 mb-4 payment-box e-wallet-box">
             <h5>E-Wallet</h5>
             <a href="shop6.php" target="_blank">
-                <img src="../resource/images/Icon_Gambar/thriftinPoint/logo_linkAja.png" alt="LinkAja" class="e-wallet">
+                <img src="../resource/images/Icon_Gambar/RewardPoint/logo_linkAja.png" alt="LinkAja" class="e-wallet">
             </a>
         </div>
 

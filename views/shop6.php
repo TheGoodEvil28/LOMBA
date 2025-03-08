@@ -120,7 +120,7 @@
         <div class="payment-method-details">
             <div class="card payment-card">
                 <div class="d-flex justify-content-between align-items-center">
-                    <img src="../resource/images/Icon_Gambar/thriftinPoint/logo_linkAja.png" alt="LinkAja" class="payment-logo">
+                    <img src="../resource/images/Icon_Gambar/RewardPoint/logo_linkAja.png" alt="LinkAja" class="payment-logo">
                     <span class="payment-amount">Rp 256.500</span>
                 </div>
             </div>
