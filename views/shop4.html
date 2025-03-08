@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,132 +10,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../resource/css/nav.css">
+    <link rel="stylesheet" href="../resource/css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Voga&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Voga&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://unpkg.com/heroicons@1.0.1/dist/solid.js"></script>
-    <link rel="stylesheet" href="../resource/css/app.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Voga&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="../resource/css/order.css">
 </head>
-
-
-<style>
-    /* Order Success Section */
-    .order-success-section {
-        margin-top: 6rem; /* Adjusted for better spacing */
-        margin-bottom: 3rem;
-        width: 90%; /* Increased responsiveness */
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /* Title Styling */
-    .order-title {
-        font-weight: bold;
-        font-size: 32px;
-        color: #333;
-        margin-bottom: 30px; 
-    }
-
-    /* Success Image */
-    .order-image img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* Payment Card */
-    .payment-card {
-        width: 100%;
-        padding: 15px;
-        border-radius: 10px;
-        border: 1px solid #ddd;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 20px;
-    }
-
-    /* Payment Logo */
-    .payment-logo {
-        width: 50px;
-        height: auto;
-    }
-
-    /* Payment Amount */
-    .payment-amount {
-        font-size: 22px;
-        font-weight: bold;
-        color: #333;
-    }
-
-    /* Button Styling */
-    .btn-large {
-        width: 100%;
-        background-color: #000;
-        font-size: 18px;
-        padding: 14px;
-        border-radius: 8px;
-    }
-
-    /* Responsive Adjustments */
-    @media (max-width: 768px) {
-        .order-success-section {
-            width: 100%;
-            padding: 0 15px;
-        }
-
-        .order-title {
-            font-size: 28px;
-        }
-
-        .payment-card {
-            flex-direction: row;
-            justify-content: space-between;
-            padding: 12px;
-        }
-
-        .payment-logo {
-            width: 45px;
-        }
-
-        .payment-amount {
-            font-size: 20px;
-        }
-
-        .btn-large {
-            font-size: 16px;
-            padding: 12px;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .order-title {
-            font-size: 26px;
-        }
-
-        .payment-logo {
-            width: 40px;
-        }
-
-        .payment-amount {
-            font-size: 18px;
-        }
-
-        .btn-large {
-            font-size: 15px;
-            padding: 10px;
-        }
-    }
-</style>
-
-
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
   <div class="container d-flex justify-content-between align-items-center top-bar">
     
     <!-- Logo -->
-    <a class="navbar-brand d-flex align-items-center" href="../views/index.php">
+    <a class="navbar-brand d-flex align-items-center" href="../views/index.html">
       <img src="../resource/images/Logo_Thriftin.png" alt="Thriftin Logo" class="img-fluid logo-image">
     </a>
 
@@ -152,19 +38,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link mobile-menu-item {{ request()->is('homepage') ? 'active' : '' }}" href="../views/index.php">
+          <a class="nav-link mobile-menu-item {{ request()->is('homepage') ? 'active' : '' }}" href="../views/index.html">
             <span class="mobile-text">HOME</span>
             <i class="fas fa-chevron-right mobile-arrow"></i> 
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mobile-menu-item {{ request()->is('shopwomen') ? 'active' : '' }}" href="../views/shop.php">
+          <a class="nav-link mobile-menu-item {{ request()->is('shopwomen') ? 'active' : '' }}" href="../views/shop.html">
             <span class="mobile-text">SHOP</span>
             <i class="fas fa-chevron-right mobile-arrow"></i> 
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mobile-menu-item {{ request()->is('sell') ? 'active' : '' }}" href="../views/sell.php">
+          <a class="nav-link mobile-menu-item {{ request()->is('sell') ? 'active' : '' }}" href="../views/sell.html">
             <span class="mobile-text">SELL</span>
             <i class="fas fa-chevron-right mobile-arrow"></i> 
           </a>
@@ -184,41 +70,73 @@
 
   </div>
 </nav>
-    <!-- Order Success Section -->
-    <section class="order-success-section container text-center">
-        <h2 class="order-title">Yeay, Order Successful!</h2>
-        <div class="order-image">
-            <img src="../resource/images/Icon_Gambar/Order_Sell/succesful order.png" alt="Order Success Image" class="img-fluid success-image">
-        </div>
-        <div class="payment-method-details">
-            <div class="card payment-card">
-                <div class="d-flex justify-content-between align-items-center">
-                    <img src="../resource/images/Icon_Gambar/Order_Sell/Logo QRIS.png" alt="LinkAja" class="payment-logo">
-                    <span class="payment-amount">Rp 256.500</span>
-                </div>
+<!-- Order Section -->
+<section class="order-section container mt-5 mb-5" style="background-color: #F6F6F6;">
+    <div class="row">
+        <!-- Order Summary -->
+        <div class="col-md-6 order-summary p-4">
+    <h4 class="mb-4">Order</h4>
+    <div class="card p-3 shadow-sm">
+        <div class="d-flex">
+            <img src="../resource/images\Barang_Branded\Female\Top_s\Prada Morocain wo girl.avif" alt="Product Image" class="img-fluid" style="width: 100px; height: auto; margin-right: 20px;">
+            <div>
+                <h5>Prada Morocain</h5>
+                <p>Size L - Good Condition</p>
+                <p>Color: White <span class="circle-color" style="background-color: #587098; width: 15px; height: 15px; display: inline-block; border-radius:50px;"></span></p>
             </div>
         </div>
-        <a href="shop.php" class="btn btn-dark btn-large">Back to Shopping</a>
-    </section>
+        <hr>
+        <div class="d-flex justify-content-between">
+            <p>Subtotal</p>
+            <p>Rp 240.000</p>
+        </div>
+        <div class="d-flex justify-content-between">
+            <p>Shipping</p>
+            <p id="shipping-amount">Rp 15.000</p>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between">
+            <p>Total</p>
+            <p id="total-amount">Rp 255.000</p>
+        </div>
+    </div>
+</div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-    document.getElementById('profileIcon').addEventListener('click', function(event) {
-        event.preventDefault();
-        var dropdown = document.getElementById('profileDropdown');
-        dropdown.classList.toggle('d-none');
-    });
 
-    // Close the dropdown when clicking outside of it
-    document.addEventListener('click', function(event) {
-        var dropdown = document.getElementById('profileDropdown');
-        var profileIcon = document.getElementById('profileIcon');
-        if (!profileIcon.contains(event.target) && !dropdown.contains(event.target)) {
-            dropdown.classList.add('d-none');
-        }
-    });
-</script>
+        <!-- Address Section with White Background -->
+        <div class="col-md-6 address-section p-4 bg-white shadow-sm">
+    <h4 class="mb-4">Address</h4>
+    <form id="shipping-form">
+        <div class="mb-3">
+            <label for="full-address" class="form-label">Full Address</label>
+            <textarea class="form-control" id="full-address" rows="3" placeholder="Sunde Laboan Suite 973 87285 Fern Pine, East Weldonstad, SC 60534"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="additional-details" class="form-label">Other Details (Optional)</label>
+            <input type="text" class="form-control" id="additional-details" placeholder="Example: block, unit number or benchmark">
+        </div>
+
+        <div class="mb-3">
+            <label for="shipping-method" class="form-label">Shipping</label>
+            <select id="shipping-method" class="form-select" onchange="updateShipping()">
+                <option value="15000">Standard - Rp 15.000</option>
+                <option value="30000">Express - Rp 30.000</option>
+            </select>
+        </div>
+
+        <a href="shop5.html" class="btn btn-dark w-100">Proceed to Delivery</a>
+    </form>
+    <div class="purchase-guarantee">
+        <img src="../resource/images/Icon_Gambar/Semua_Icon/insurance.png" alt="Insurance Icon" style="width: 24px; height: 24px; margin-right: 8px;">
+        Safe with thriftin Purchase Guarantee
+    </div>
+</div>
+
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <footer class="footer py-4" style="background-color: #0B2442; color: #F7F7F6;">
   <div class="container">
     <div class="row">
@@ -245,9 +163,9 @@
       <div class="col-lg-2 col-md-6 col-sm-12 mb-3">
         <h5 class="footer-title">Categories</h5>
         <ul class="list-unstyled">
-          <li><a href="../views/shop.php" class="footer-link">Women's Fashion</a></li>
-          <li><a href="../views/shopmen.php" class="footer-link">Men's Fashion</a></li>
-          <li><a href="../views/shopkid.php" class="footer-link">Kid's Fashion</a></li>
+          <li><a href="../views/shop.html" class="footer-link">Women's Fashion</a></li>
+          <li><a href="../views/shopmen.html" class="footer-link">Men's Fashion</a></li>
+          <li><a href="../views/shopkid.html" class="footer-link">Kid's Fashion</a></li>
         </ul>
       </div>
 
@@ -277,3 +195,31 @@
 </footer>
 </body>
 </html>
+
+<script>
+    function updateShipping() {
+        const shippingMethod = document.getElementById('shipping-method');
+        const shippingValue = parseInt(shippingMethod.value);
+        const subtotal = 155000; // Assuming subtotal is always Rp 155.000
+        const totalElement = document.getElementById('total-amount');
+        const shippingElement = document.getElementById('shipping-amount');
+        
+        // Update shipping and total amount
+        shippingElement.textContent = "Rp " + shippingValue.toLocaleString();
+        totalElement.textContent = "Rp " + (subtotal + shippingValue).toLocaleString();
+    }
+    document.getElementById('profileIcon').addEventListener('click', function(event) {
+        event.preventDefault();
+        var dropdown = document.getElementById('profileDropdown');
+        dropdown.classList.toggle('d-none');
+    });
+
+    // Close the dropdown when clicking outside of it
+    document.addEventListener('click', function(event) {
+        var dropdown = document.getElementById('profileDropdown');
+        var profileIcon = document.getElementById('profileIcon');
+        if (!profileIcon.contains(event.target) && !dropdown.contains(event.target)) {
+            dropdown.classList.add('d-none');
+        }
+    });
+</script>
