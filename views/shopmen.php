@@ -94,8 +94,8 @@
     <div class="row g-4" id="product-grid">
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="200000">
             <div class="card">
-            <img src="../resource/images\Barang_Branded\Male\Top_s\Corduroy shirt.avif" 
-                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\Corduroy shirt man.avif"
+            <img src="../resource/images\Barang_Branded\Male\Top_s\Corduroy shirt.png" 
+                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\Corduroy shirt man.png"
                     class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -109,8 +109,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="180000">
             <div class="card">
-            <img src="../resource/images\Barang_Branded\Male\Top_s\Re-Cashmere crew-neck sweater.avif" 
-                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\Re-Cashmere crew-neck sweater man.avif"
+            <img src="../resource/images\Barang_Branded\Male\Top_s\Re-Cashmere crew-neck sweater.png" 
+                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\Re-Cashmere crew-neck sweater man.png"
                     class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -124,8 +124,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="200000">
             <div class="card">
-            <img src="../resource/images\Barang_Branded\Male\Top_s\Stretch cotton shirt.avif" 
-                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\Stretch cotton shirt man.avif"
+            <img src="../resource/images\Barang_Branded\Male\Top_s\Stretch cotton shirt.png" 
+                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\Stretch cotton shirt man.png"
                     class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -139,8 +139,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="tops" data-size="l" data-price="190000">
             <div class="card">
-            <img src="../resource/images\Barang_Branded\Male\Top_s\striped silk and cotton polo shirt.avif" 
-                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\striped silk and cotton polo shirt man.avif"
+            <img src="../resource/images\Barang_Branded\Male\Top_s\striped silk and cotton polo shirt.png" 
+                    data-hover-src="../resource/images\Barang_Branded\Male\Top_s\striped silk and cotton polo shirt man.png"
                     class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -229,8 +229,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="200000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Male\Shoes\Samba_OG_Shoes_White.avif"
-                data-hover-src="../resource/images\Barang_Branded\Male\Shoes\Samba_OG_Shoes_White_Top.avif"
+                <img src="../resource/images\Barang_Branded\Male\Shoes\Samba_OG_Shoes_White.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Shoes\Samba_OG_Shoes_White_Top.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -244,8 +244,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="260000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Male\Shoes\White Brushed leather loafers.avif"
-                data-hover-src="../resource/images\Barang_Branded\Male\Shoes\White Brushed leather loafers Man.avif"
+                <img src="../resource/images\Barang_Branded\Male\Shoes\White Brushed leather loafers 1.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Shoes\White Brushed leather loafers Man 1.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
