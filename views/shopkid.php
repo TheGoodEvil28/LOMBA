@@ -102,7 +102,6 @@
                         <p class="product-size">Size M</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <a href="shop2.php" class="product-link">
                         <h5 class="product-name">Oversized Printed Sweatshirt Hotwheels</h5>
                     </a>
                     <p class="product-price">Rp 120.000</p>
