@@ -265,7 +265,7 @@
 </div>
 <!-- Enhanced Thriftin About Us Section -->
 <!-- About Us Section -->
-<section class="about-reward-section container my-5">
+<section class="about-thriftIn-section container my-5">
     <div class="text-center">
         <h2 class="section-title" id="about">Who We Are</h2>
         <p class="about-text">
