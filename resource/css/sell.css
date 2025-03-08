@@ -1,5 +1,3 @@
-/* General Styles */
-
 body {
     font-family: 'Montserrat', sans-serif;
     color: #333;
@@ -14,14 +12,11 @@ body {
 
 .sell-section h2 {
     font-size: 36px;
-    color: #4A4A48;
+    color: #0B2442;
     text-align: center;
     margin-bottom: 30px;
     font-weight: 700;
 }
-
-
-/* Sell Container Layout */
 
 .sell-container {
     display: flex;
@@ -29,9 +24,6 @@ body {
     gap: 50px;
     margin-bottom: 40px;
 }
-
-
-/* Product Section */
 
 .product-section {
     flex: 1;
@@ -49,7 +41,7 @@ body {
     gap: 15px;
     margin-bottom: 20px;
 }
-
+    
 .photo-item {
     width: 140px;
     height: 140px;
@@ -61,12 +53,16 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     flex-direction: column;
     text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     cursor: pointer;
+}
+
+.photo-item:hover{
+    transform: translateY(-3px);
 }
 
 .photo-item img {
     width: 35px;
-    /* Adjust the camera icon size */
     height: 35px;
     object-fit: contain;
 }
@@ -128,17 +124,17 @@ input[type="color"] {
     padding: 15px 80px;
     /* Made button wider */
     font-size: 18px;
-    background-color: #E74C3C;
+    background-color: #0B2442;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 16px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .submit-button button:hover {
-    background-color: #c0392b;
+    background-color: #154074;
     transform: translateY(-3px);
 }
 

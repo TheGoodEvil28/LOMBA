@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReWard - Checkout</title>
+    <title>Thriftin - Toko Thrift</title>
+    <link rel="icon" type="image/x-icon" href="../resource/images/logoT.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -70,7 +71,7 @@
     </form>
     <div class="purchase-guarantee">
         <img src="../resource/images/Icon_Gambar/Semua_Icon/insurance.png" alt="Insurance Icon" style="width: 24px; height: 24px; margin-right: 8px;">
-        Safe with ReWard Purchase Guarantee
+        Safe with thriftin Purchase Guarantee
     </div>
 </div>
 

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sell</title>
+    <title>Thriftin - Toko Thrift</title>
+    <link rel="icon" type="image/x-icon" href="../resource/images/logoT.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,13 +18,13 @@
 <section class="container-content">
     <!-- Product Details Section -->
     <div class="product-details">
-        <h3>Product Details</h3>
+        <h3><b>Product Details</b></h3>
         <div class="product-photo-grid">
-            <img src="{{ asset('images\Barang_Non_Branded\Female\Top_s\Striped Sweater.jpg') }}" alt="Product Photo">
-            <div class="photo-item"><img src="{{ asset('images\Barang_Non_Branded\Kids\Top_s\Long-Sleeved Shirt.jpg') }}" alt="Product Photo"></div>
-            <div class="photo-item"><img src="{{ asset('images\Barang_Non_Branded\Male\Bottom_s\Casual Short.jpg') }}"  alt="Product Photo"></div>
-            
+            <img src="../resource/images/Barang_Non_Branded/Female/Top_s/Striped Sweater.jpg" alt="Product Photo">
+            <div class="photo-item"><img src="../resource/images/Barang_Non_Branded/Kids/Top_s/Long-Sleeved Shirt.jpg" alt="Product Photo"></div>
+            <div class="photo-item"><img src="../resource/images/Barang_Non_Branded/Male/Bottom_s/Casual Short.jpg" alt="Product Photo"></div>
         </div>
+
         <div class="item-details">
             <table>
                 <tr>
@@ -60,14 +61,13 @@
         <p class="price-info">Based on the price research, the estimated price for the product you sent is <strong>Rp 60,000</strong></p>
         
         <form action="../views/sell3.php" method="POST" enctype="multipart/form-data">
-       
-            @csrf
+
             <label for="input-price">Enter the price you want</label>
             <input type="text" id="input-price" name="price" placeholder="Input Price">
 
             <p class="total-price">Total Price: Rp 63,000</p>
 
-            <button type="submit">Send Product</button>
+            <button type="submit"><b>Send Product</b></button>
 
         </form>
     </div>

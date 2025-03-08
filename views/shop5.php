@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReWard - Payment</title>
+    <title>Thriftin - Toko Thrift</title>
+    <link rel="icon" type="image/x-icon" href="../resource/images/logoT.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +39,7 @@
         <div class="card p-2 mb-4 payment-box e-wallet-box">
             <h5>E-Wallet</h5>
             <a href="shop6.php" target="_blank">
-                <img src="../resource/images/Icon_Gambar/ReWardPoint/logo_linkAja.png" alt="LinkAja" class="e-wallet">
+                <img src="../resource/images/Icon_Gambar/thriftinPoint/logo_linkAja.png" alt="LinkAja" class="e-wallet">
             </a>
         </div>
 

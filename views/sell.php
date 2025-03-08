@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sell</title>
+    <title>Thriftin - Toko Thrift</title>
+    <link rel="icon" type="image/x-icon" href="../resource/images/logoT.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../resource/css/sell.css">
 </head>
@@ -16,12 +17,12 @@
         <div class="sell-container">
             <!-- Product Section -->
             <div class="product-section">
-                <h3>Product</h3>
+                <h3><b>Product</b></h3>
                 <div class="product-photo-grid">
                     <!-- Photo Items -->
                     <div class="photo-item">
                         <label for="add-photo">
-                            <img src="{{ asset('images/Icon_Gambar/Semua_Icon/camera.png') }}" alt="Add Photo">
+                            <img src="../resource/images/plus.png" alt="Add Photo">
                         </label>
                         <span>Add Photo</span> <!-- Text moved below the image -->
                         <input type="file" id="add-photo" name="photo" style="display:none;">
@@ -39,7 +40,7 @@
 
             <!-- Detail Information Section -->
             <div class="detail-section">
-    <h3>Detail Information</h3>
+    <h3><b>Detail Information</b></h3>
     <label for="category">Category</label>
     <select name="category">
         <option value="">Category</option>
@@ -91,12 +92,10 @@
         </div>
 
         <div class="submit-button">
-            <button type="submit">Submit</button>
+            <button type="submit"><b>Submit</b></button>
         </div>
     </form>
 </section>
-
-<?php include "../layouts/footer.html"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
@@ -117,5 +116,6 @@
         }
     }
 </script>
+<?php include "../layouts/footer.html"; ?>
 </body>
 </html>

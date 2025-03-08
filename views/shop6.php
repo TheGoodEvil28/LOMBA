@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReWard - Order Success</title>
+    <title>Thriftin - Toko Thrift</title>
+    <link rel="icon" type="image/x-icon" href="../resource/images/logoT.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -119,7 +120,7 @@
         <div class="payment-method-details">
             <div class="card payment-card">
                 <div class="d-flex justify-content-between align-items-center">
-                    <img src="../resource/images/Icon_Gambar/ReWardPoint/logo_linkAja.png" alt="LinkAja" class="payment-logo">
+                    <img src="../resource/images/Icon_Gambar/thriftinPoint/logo_linkAja.png" alt="LinkAja" class="payment-logo">
                     <span class="payment-amount">Rp 256.500</span>
                 </div>
             </div>
