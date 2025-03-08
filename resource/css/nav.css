@@ -190,7 +190,7 @@ body {
 .profile-dropdown ul li {
     margin: 0;
     padding: 8px 0;
-    text-align: left;
+    text-align: right;
     text-size-adjust: 20px;
 }
 
@@ -226,6 +226,62 @@ body {
 .position-absolute {
     position: absolute;
 }
+
+
+/* General Navbar Styles */
+.navbar {
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    background-color: white;
+    height: 80px;
+}
+
+/* Logo Styling */
+.logo-image {
+    height: 50px;
+    width: auto;
+}
+
+/* User Icons Styling */
+.user-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Desktop View: Align User Icons to the Right */
+@media (min-width: 992px) {
+    .user-icons {
+        margin-left: auto; /* Push icons to the right */
+    }
+}
+
+/* Mobile View: Arrange Logo, User Icons & Hamburger Menu */
+@media (max-width: 991px) {
+    .navbar {
+        height: auto;
+    }
+
+    .d-lg-none {
+        display: flex !important;
+    }
+
+    .user-icons {
+        order: 3; /* Move icons to the right on mobile */
+    }
+
+    .navbar-toggler {
+        order: 4;
+    }
+}
+
+
 /* Desktop view - Center navigation */
 @media (min-width: 769px) {
     .navbar-nav {
@@ -243,6 +299,8 @@ body {
         display: none !important; /* Hide arrow on desktop */
     }
 }
+
+
 
 /* Mobile view - Align left and show hamburger */
 @media (max-width: 768px) {
