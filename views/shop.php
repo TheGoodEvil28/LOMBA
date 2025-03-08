@@ -264,18 +264,69 @@
         </div>
         <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="220000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane two.png" 
-                data-hover-src="../resource/images\Barang_Branded\Female\Shoes\chcuk taylor all star lugged heel mary jane.png" 
+                <div class="row">
+                <div class="col-md-3">
+                    <div class="card product-card">
+                    <img src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Victory+ Men's Water-Repellent Golf Trousers.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Victory+ Men's Water-Repellent Golf Trousers man.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size 38</p>
+                        <p class="product-size">Size XL</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Converse Chuck Taylor All Star Lugged Heel Mary Jane</h5>
-                    <p class="product-price">Rp 220.000</p>
+                    <h5 class="product-name">Nike Victory+ Men's Water-Repellent Golf Trousers</h5>
+                    <p class="product-price">Rp 210.000</p>
                 </div>
             </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                    <img src="../resource/images\Barang_Branded\Male\Bottom_s\Air Jordan Men's Trousers.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Bottom_s\Air Jordan Men's Trousers man.png"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size XL</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
+                    </div>
+                    <h5 class="product-name">Air Jordan Men's Trousers</h5>
+                    <p class="product-price">Rp 170.000</p>
+                </div>
+            </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                    <img src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Club Fleece.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Club Fleece man.png"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size XL</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
+                    </div>
+                    <h5 class="product-name">Nike Club Fleece</h5>
+                    <p class="product-price">Rp 250.000</p>
+                </div>
+            </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                    <img src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Kobe Men's Pleated Trousers.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Bottom_s\Nike Kobe Men's Pleated Trousers man.png"
+                class="card-img-top hover-image" alt="Product Image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="product-size">Size XL</p>
+                        <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
+                    </div>
+                    <h5 class="product-name">Nike Kobe Men's Pleated Trousers</h5>
+                    <p class="product-price">Rp 185.000</p>
+                </div>
+            </div>
+                </div>
+            </div>
+            
         </div>
     </div>
     

@@ -256,22 +256,22 @@
                     <p class="product-price">Rp 260.000</p>
                 </div>
             </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="210000">
+        </div><div class="col-12 col-sm-6 col-md-3 product-card" data-category="footwear" data-size="onesize" data-price="210000">
             <div class="card">
-                <img src="../resource/images\Barang_Branded\Male\Shoes\Air Jordan 1 Low G Golf Shoes.png"
-                data-hover-src="../resource/images\Barang_Branded\Male\Shoes\Air Jordan 1 Low G Golf Shoes two.png"
+                <img src="../resource/images\Barang_Branded\Male\Shoes\Air Jordan 1 Low G Golf Shoes Two.png"
+                data-hover-src="../resource/images\Barang_Branded\Male\Shoes\Air Jordan 1 Low G Golf Shoes Two.png"
                 class="card-img-top hover-image" alt="Product Image">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="product-size">Size 44</p>
+                        <p class="product-size">Size 42</p>
                         <img src="../resource/images/Icon_Gambar/Semua_Icon/love.png" class="wishlist-icon" alt="Wishlist Icon" style="width: 24px; height: 24px;">
                     </div>
-                    <h5 class="product-name">Air Jordan 1 Low G Golf Shoes</h5>
+                    <h5 class="product-name">Air Jordan 1 Low G Golf Shoes Two</h5>
                     <p class="product-price">Rp 210.000</p>
                 </div>
             </div>
         </div>
+        
     </div>
     
 
